@@ -34,7 +34,7 @@
                 <span class="text">Sign In</span></a
               >
 
-              <a href=""
+              <a href="register_form.php"
                 ><span class="lnr lnr-envelope"></span>
                 <span class="text">Sign Up</span></a
               >

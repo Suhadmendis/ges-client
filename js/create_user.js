@@ -123,11 +123,11 @@ function passsuppresult_select_permission()
 function save_inv()
 {
 
-    if (document.getElementById("pass1").value != document.getElementById("pass2").value) {
-        alert("Please Confirm Password");
-        document.getElementById("pass2").value = "";
-        document.getElementById("pass2").focus();
-    } else {
+    // if (document.getElementById("pass1").value != document.getElementById("pass2").value) {
+    //     alert("Please Confirm Password");
+    //     document.getElementById("pass2").value = "";
+    //     document.getElementById("pass2").focus();
+    // } else {
 
         xmlHttp = GetXmlHttpObject();
         if (xmlHttp == null)
@@ -136,88 +136,88 @@ function save_inv()
             return;
         }
 
-        if (document.getElementById('user_name').value == "") {
+        if (document.getElementById('txtUserName').value == "") {
             document.getElementById('msg_box').innerHTML = "<div class='alert alert-warning' role='alert'><span class='center-block'>User Name  Not Entered</span></div>";
             return false;
         }
-        if (document.getElementById('pass1').value == "") {
+        if (document.getElementById('txtPassword').value == "") {
             document.getElementById('msg_box').innerHTML = "<div class='alert alert-warning' role='alert'><span class='center-block'>Password  Not Entered</span></div>";
             return false;
         }
-        if (document.getElementById('pass2').value == "") {
-            document.getElementById('msg_box').innerHTML = "<div class='alert alert-warning' role='alert'><span class='center-block'>Confirm Password  Not Entered</span></div>";
-            return false;
-        }
-        if (document.getElementById('umail').value == "") {
-            document.getElementById('msg_box').innerHTML = "<div class='alert alert-warning' role='alert'><span class='center-block'>User Mail Not Entered</span></div>";
-            return false;
-        }
-        if (document.getElementById('rmail').value == "") {
-            document.getElementById('msg_box').innerHTML = "<div class='alert alert-warning' role='alert'><span class='center-block'>Department Head Mail  Not Entered</span></div>";
-            return false;
-        }
+        // if (document.getElementById('pass2').value == "") {
+        //     document.getElementById('msg_box').innerHTML = "<div class='alert alert-warning' role='alert'><span class='center-block'>Confirm Password  Not Entered</span></div>";
+        //     return false;
+        // }
+        // if (document.getElementById('umail').value == "") {
+        //     document.getElementById('msg_box').innerHTML = "<div class='alert alert-warning' role='alert'><span class='center-block'>User Mail Not Entered</span></div>";
+        //     return false;
+        // }
+        // if (document.getElementById('rmail').value == "") {
+        //     document.getElementById('msg_box').innerHTML = "<div class='alert alert-warning' role='alert'><span class='center-block'>Department Head Mail  Not Entered</span></div>";
+        //     return false;
+        // }
 
         var url = "CheckUsers.php";
         url = url + "?Command=" + "save_inv";
-        url = url + "&user_name=" + document.getElementById("user_name").value;
+        url = url + "&user_name=" + document.getElementById("txtUserName").value;
     //    url = url + "&user_depart=" + document.getElementById("user_depart").value;
-        url = url + "&password=" + document.getElementById("pass1").value;
-        url = url + "&user_type=" + document.getElementById("user_type").value;
-        url = url + "&U_email=" + document.getElementById("umail").value;
-        url = url + "&R_email=" + document.getElementById("rmail").value;
+        url = url + "&password=" + document.getElementById("txtPassword").value;
+        // url = url + "&user_type=" + document.getElementById("user_type").value;
+        // url = url + "&U_email=" + document.getElementById("umail").value;
+        // url = url + "&R_email=" + document.getElementById("rmail").value;
 
         xmlHttp.onreadystatechange = passsuppresult_save_inv;
         xmlHttp.open("GET", url, true);
         xmlHttp.send(null);
 
 
-    }
+    // }
 
 }
 
 
-function save_inv1()
-{
-    xmlHttp = GetXmlHttpObject();
-    if (xmlHttp == null)
-    {
-        alert("Browser does not support HTTP Request");
-        return;
-    }
+// function save_inv1()
+// {
+//     xmlHttp = GetXmlHttpObject();
+//     if (xmlHttp == null)
+//     {
+//         alert("Browser does not support HTTP Request");
+//         return;
+//     }
 
-    var url = 'assign_privilages_data.php';
-    var params = 'Command=' + 'save_inv';
+//     var url = 'assign_privilages_data.php';
+//     var params = 'Command=' + 'save_inv';
 
-    params = params + '&user_name=' + document.getElementById('user_name').value;
-    var i = 1;
-    while (i < document.getElementById("mcount").value) {
-        chkview = "chkview" + i;
-        chkfeed = "chkfeed" + i;
-        chkmod = "chkmod" + i;
-        chkprice = "chkprice" + i;
+//     params = params + '&user_name=' + document.getElementById('user_name').value;
+//     var i = 1;
+//     while (i < document.getElementById("mcount").value) {
+//         chkview = "chkview" + i;
+//         chkfeed = "chkfeed" + i;
+//         chkmod = "chkmod" + i;
+//         chkprice = "chkprice" + i;
 
-        params = params + "&" + chkview + "=" + document.getElementById(chkview).checked;
-        params = params + "&" + chkfeed + "=" + document.getElementById(chkfeed).checked;
-        params = params + "&" + chkmod + "=" + document.getElementById(chkmod).checked;
-        params = params + "&" + chkprice + "=" + document.getElementById(chkprice).checked;
+//         params = params + "&" + chkview + "=" + document.getElementById(chkview).checked;
+//         params = params + "&" + chkfeed + "=" + document.getElementById(chkfeed).checked;
+//         params = params + "&" + chkmod + "=" + document.getElementById(chkmod).checked;
+//         params = params + "&" + chkprice + "=" + document.getElementById(chkprice).checked;
 
-        i = i + 1;
-    }
-    //alert(params);
-    xmlHttp.open("POST", url, true);
+//         i = i + 1;
+//     }
+//     //alert(params);
+//     xmlHttp.open("POST", url, true);
 
-    xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xmlHttp.setRequestHeader("Content-length", params.length);
-    xmlHttp.setRequestHeader("Connection", "close");
+//     xmlHttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+//     xmlHttp.setRequestHeader("Content-length", params.length);
+//     xmlHttp.setRequestHeader("Connection", "close");
 
-    xmlHttp.onreadystatechange = passsuppresult_save_inv;
+//     xmlHttp.onreadystatechange = passsuppresult_save_inv;
 
-    xmlHttp.send(params);
-
-
+//     xmlHttp.send(params);
 
 
-}
+
+
+// }
 
 
 
@@ -229,15 +229,16 @@ function passsuppresult_save_inv()
     {
 
 
-        if (xmlHttp.responseText == "Saved") {
+        if (xmlHttp.responseText == "LOG") {
 //            document.getElementById('msg_box').innerHTML = "<div class='alert alert-success' role='alert'><span class='center-block'>Saved</span></div>";
-            alert('Saved');
-            newent();
+            alert(xmlHttp.responseText);
+            location.href = "home.php";
+            // newent();
 
 //            setTimeout("location.reload(true);", 500);
         } else {
 //            document.getElementById('msg_box').innerHTML = "<div class='alert alert-warning' role='alert'><span class='center-block'>" + xmlHttp.responseText + "</span></div>";
-            alert('Created Account');
+            alert(xmlHttp.responseText);
             newent();
         }
 
