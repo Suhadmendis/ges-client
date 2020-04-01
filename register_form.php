@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Login Page</title>
+        <title>Registration Page</title>
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <!-- Font Awesome -->
@@ -46,21 +46,21 @@
                 <div>
                     <!--<img style="align-content: center" class="img-responsive" src="img/Mas_Holdings_Logo.png">-->
                     <div class="form-group">
-                        <h1 id="topic"><center>GES Education Group</center></h1>
+                        <h1 id="topic"><center>GES Education Group Registration</center></h1>
                     </div>
                 </div>
                 <!--<h3><center>MAS HOLDINGS</center></h3>-->
                 <div class="form-group"></div>
 
                 <strong id="lab">Username:</strong>
-
                 <input class="form-control"  name="UserName" type="text" id="txtUserName" onkeypress="keyset('txtPassword', event)"  />
 
-
-
                 <strong id="lab">Password:</strong>
-
                 <input class="form-control" name="Password" type="password" id="txtPassword" onkeypress="keyset('lbtn', event)"/>
+                <strong id="lab">Password:</strong>
+                <input class="form-control" name="Password" type="password" id="txtPassword1" onkeypress="keyset('lbtn', event)"/>
+
+
                 <div id="txterror" class="login_error">
 
                 </div>

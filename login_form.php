@@ -46,7 +46,7 @@
                 <div>
                     <!--<img style="align-content: center" class="img-responsive" src="img/Mas_Holdings_Logo.png">-->
                     <div class="form-group">
-                        <h1 id="topic"><center>GES Education Group</center></h1>
+                        <h1 id="topic"><center>GES Education Group login</center></h1>
                     </div>
                 </div>
                 <!--<h3><center>MAS HOLDINGS</center></h3>-->

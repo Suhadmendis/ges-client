@@ -6,11 +6,13 @@ if (isset($_COOKIE[$cookie_name])) {
 
     $mo = chk_cookie($_COOKIE[$cookie_name]);
 
-    if ($mo == "ok") {
+    if (true) {
         header('Location: ' . "home.php");
         exit();
     }
 }
+header('Location: ' . "home.php");
+exit();
 ?> 
 <!DOCTYPE html>
 <html lang="en">

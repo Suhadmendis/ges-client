@@ -5,12 +5,12 @@ $cookie_name = "user";
 if (isset($_COOKIE[$cookie_name])) {
     $mo = chk_cookie($_COOKIE[$cookie_name]);
     if ($mo != "ok") {
-        header('Location: ' . "index.php");
-        exit();
+        // header('Location: ' . "index.php");
+        // exit();
     }
 } else {
-    header('Location: ' . "index.php");
-    exit();
+    // header('Location: ' . "index.php");
+    // exit();
 }
 
 

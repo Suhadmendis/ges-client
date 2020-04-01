@@ -91,7 +91,7 @@ if ($_GET["Command"] == "save_inv") {
     $sql = "select * from user_mast where user_name='" . $_GET["user_name"] . "'";
     $result = $conn->query($sql);
     if ($row1 = $result->fetch()) {
-        echo "User Found !!!";
+        echo "Already Registered";
     } else {
         $sql = "insert into user_mast(user_name, password) values ('" . $_GET["user_name"] . "', '" . $_GET["password"] . "')";
 //        echo $sql;
