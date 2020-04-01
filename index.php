@@ -17,13 +17,13 @@ if (isset($_COOKIE[$cookie_name])) {
     <head>
         <title>Login Page</title>
         <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="res/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <!-- Font Awesome -->
-        <link rel="stylesheet" href="res/css/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
         <!-- Ionicons -->
         <link  href="css/login.css" rel="stylesheet">    
 
-        <link rel="stylesheet" href="res/css/ionicons/css/ionicons.min.css">
+        <link rel="stylesheet" href="css/ionicons/css/ionicons.min.css">
         <link rel="icon" type="image/png" sizes="16x16" href="andpic.png">
 
         <script src="js/vuepkg.js" type="text/javascript"></script>
