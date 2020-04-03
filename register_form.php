@@ -1,78 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Registration Page</title>
-        <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-        <!-- Ionicons -->
-        <link  href="css/login.css" rel="stylesheet">    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Login</title>
 
-        <link rel="stylesheet" href="css/ionicons/css/ionicons.min.css">
-        <link rel="icon" type="image/png" sizes="16x16" href="andpic.png">
-
-        <script src="js/vuepkg.js" type="text/javascript"></script>
-        <!-- <script src="js/user.js"></script> -->
-        <script src="js/create_user.js"></script>
-        <style>
-            
-            body{
-                background-color: #3f484f;
-            }
-            #login-form{
-                background-color: #e7535f;
-                border: 0px;
-            }
-            #topic{
-                color: white;
-            }
-            #lab{
-                color: white;
-            }
-            #txterror{
-                color: white;
-            }
-        </style>
-        
-    </head>
-    <body>
-
-
-   
-
-        <div class="container">
-            <div id="login-form" class="form-signin form-group mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-                <div>
-                    <!--<img style="align-content: center" class="img-responsive" src="img/Mas_Holdings_Logo.png">-->
-                    <div class="form-group">
-                        <h1 id="topic"><center>GES Education Group Registration</center></h1>
-                    </div>
-                </div>
-                <!--<h3><center>MAS HOLDINGS</center></h3>-->
-                <div class="form-group"></div>
-
-                <strong id="lab">Username:</strong>
-                <input class="form-control"  name="UserName" type="text" id="txtUserName" onkeypress="keyset('txtPassword', event)"  />
-
-                <strong id="lab">Password:</strong>
-                <input class="form-control" name="Password" type="password" id="txtPassword" onkeypress="keyset('lbtn', event)"/>
-                <strong id="lab">Password:</strong>
-                <input class="form-control" name="Password" type="password" id="txtPassword1" onkeypress="keyset('lbtn', event)"/>
-
-
-                <div id="txterror" class="login_error">
-
-                </div>
-
-
-                <button class="btn btn-primary" id="lbtn"  name="lbtn" onclick="save_inv();">Register</button>
-
-            </div>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/create_user.js"></script>
+  </head>
+  <body class="reg">
+    <div class="color-overlay"></div>
+    <div class="login-wrapper">
+      <div class="login-first">
+        <div class="section-img">
+          <img src="./img/ges-edu-logo.jpg" alt="" />
         </div>
+      </div>
+      <div class="login-second">
+        <h1>Please Register</h1>
+        <p></p>
+        <form action="">
+          <div class="stu-form-group">
+            <input type="text" placeholder="Username" id="txtUserName" class="stu-feild" />
+          </div>
+          <div class="stu-form-group">
+            <input type="password" placeholder="Password" id="txtPassword" class="stu-feild" />
+          </div>
+          <div class="stu-form-group">
+            <input type="password" placeholder="Confirm Password" id="txtPassword1" class="stu-feild" />
+          </div>
 
-    </body>    
-</html>     
+          <div class="stu-submit-btn">
+            <!-- <button type="submit" class="stu-login">Register</button> -->
+            <div id="login-btn" onclick="save_inv();" class="stu-login">Register</div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
 
 
 <script>
@@ -85,7 +55,3 @@
 
 
 </script>
-
-
-<script src="js/jquery-2.1.0.js"></script>
-<script src="js/bootstrap.min.js"></script>

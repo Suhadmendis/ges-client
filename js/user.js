@@ -76,7 +76,7 @@ function CheckUsers()
             alert(xmlHttp.responseText);
         } else {
            
-            document.getElementById("txterror").innerHTML = "Invalied UserName or Password";
+            // document.getElementById("txterror").innerHTML = "Invalied UserName or Password";
         }
     }
 }

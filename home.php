@@ -43,8 +43,8 @@ if (isset($_COOKIE[$cookie_name])) {
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!--
-            CSS
-            ============================================= -->
+			CSS
+			============================================= -->
     <link rel="stylesheet" href="res/css/linearicons.css" />
     <link rel="stylesheet" href="res/css/font-awesome.min.css" />
     <link rel="stylesheet" href="res/css/bootstrap.css" />
@@ -248,133 +248,113 @@ if (isset($_COOKIE[$cookie_name])) {
     </style>
 
     <style>
-    
+      .slick-slide {
+        margin: 0px 20px;
+      }
 
-.slick-slide {
-    margin: 0px 20px;
-}
+      .slick-slide img {
+        width: 100%;
+      }
 
-.slick-slide img {
-    width: 100%;
-}
-
-.slick-slider
-{
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-            user-select: none;
-    -webkit-touch-callout: none;
-    -khtml-user-select: none;
-    -ms-touch-action: pan-y;
+      .slick-slider {
+        position: relative;
+        display: block;
+        box-sizing: border-box;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-touch-callout: none;
+        -khtml-user-select: none;
+        -ms-touch-action: pan-y;
         touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent;
-}
+        -webkit-tap-highlight-color: transparent;
+      }
 
-.slick-list
-{
-    position: relative;
-    display: block;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-.slick-list:focus
-{
-    outline: none;
-}
-.slick-list.dragging
-{
-    cursor: pointer;
-    cursor: hand;
-}
+      .slick-list {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+      }
+      .slick-list:focus {
+        outline: none;
+      }
+      .slick-list.dragging {
+        cursor: pointer;
+        cursor: hand;
+      }
 
-.slick-slider .slick-track,
-.slick-slider .slick-list
-{
-    -webkit-transform: translate3d(0, 0, 0);
-       -moz-transform: translate3d(0, 0, 0);
+      .slick-slider .slick-track,
+      .slick-slider .slick-list {
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
         -ms-transform: translate3d(0, 0, 0);
-         -o-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-}
+        -o-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
 
-.slick-track
-{
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-}
-.slick-track:before,
-.slick-track:after
-{
-    display: table;
-    content: '';
-}
-.slick-track:after
-{
-    clear: both;
-}
-.slick-loading .slick-track
-{
-    visibility: hidden;
-}
+      .slick-track {
+        position: relative;
+        top: 0;
+        left: 0;
+        display: block;
+      }
+      .slick-track:before,
+      .slick-track:after {
+        display: table;
+        content: '';
+      }
+      .slick-track:after {
+        clear: both;
+      }
+      .slick-loading .slick-track {
+        visibility: hidden;
+      }
 
-.slick-slide
-{
-    display: none;
-    float: left;
-    height: 100%;
-    min-height: 1px;
-}
-[dir='rtl'] .slick-slide
-{
-    float: right;
-}
-.slick-slide img
-{
-    display: block;
-}
-.slick-slide.slick-loading img
-{
-    display: none;
-}
-.slick-slide.dragging img
-{
-    pointer-events: none;
-}
-.slick-initialized .slick-slide
-{
-    display: block;
-}
-.slick-loading .slick-slide
-{
-    visibility: hidden;
-}
-.slick-vertical .slick-slide
-{
-    display: block;
-    height: auto;
-    border: 1px solid transparent;
-}
-.slick-arrow.slick-hidden {
-    display: none;
-}
+      .slick-slide {
+        display: none;
+        float: left;
+        height: 100%;
+        min-height: 1px;
+      }
+      [dir='rtl'] .slick-slide {
+        float: right;
+      }
+      .slick-slide img {
+        display: block;
+      }
+      .slick-slide.slick-loading img {
+        display: none;
+      }
+      .slick-slide.dragging img {
+        pointer-events: none;
+      }
+      .slick-initialized .slick-slide {
+        display: block;
+      }
+      .slick-loading .slick-slide {
+        visibility: hidden;
+      }
+      .slick-vertical .slick-slide {
+        display: block;
+        height: auto;
+        border: 1px solid transparent;
+      }
+      .slick-arrow.slick-hidden {
+        display: none;
+      }
     </style>
   </head>
   <body>
-<?php include 'header.php' ?>
+    <?php include 'header.php' ?>
     <!-- #header -->
 
     <!-- start banner Area -->
     <section class=" relative" id="home">
       <section class="cd-slider">
         <ul>
-
           <li data-color="rgb(33, 33, 74)">
             <div
               class="content"
@@ -384,7 +364,6 @@ if (isset($_COOKIE[$cookie_name])) {
                 <p>
                   Internationally Recognized
                 </p>
-
               </blockquote>
             </div>
           </li>
@@ -397,7 +376,6 @@ if (isset($_COOKIE[$cookie_name])) {
                 <p>
                   Skilled Academic Team
                 </p>
-     
               </blockquote>
             </div>
           </li>
@@ -410,7 +388,6 @@ if (isset($_COOKIE[$cookie_name])) {
                 <p>
                   Range of Options
                 </p>
-          
               </blockquote>
             </div>
           </li>
@@ -427,33 +404,37 @@ if (isset($_COOKIE[$cookie_name])) {
     <section class="feature-area">
       <div class="container">
         <div class="row">
-        <div class="col-lg-4">
+          <div class="col-lg-4">
             <div class="single-feature">
               <div class="title">
                 <h4>Campus</h4>
               </div>
               <div class="desc-wrap">
                 <p>
-                GIHE Center for advanced studies is a Division of Global Educational
-                Services Lanka Private Limited that was established in 2011 and GIHE the
-                comprehensive education conglomerate in Sri Lanka established to fulfill
-                the growing demand for professional and higher education through high
-                quality and affordable International Qualifications partnered with
-                International organization and Awarding bodies/Universities.  </p>
-
-                <p>GIHE provides comprehensive international educational programs such as
-                Foundation to Masters level and professional services to meet the needs
-                of the students for higher education and successful career options after
-                O/Level and A/Level.</p>
-
-                <p>GIHE provides alternative pathways for mature student’s and industry
-                professionals enable them to acquire different level academic
-                qualifications by investing their industry experience. These
-                qualifications enable them to achieve overseas University admission,
-                Industrial training or a Permanent Resident pathway.</p>
-
-
-              
+                  GIHE Center for advanced studies is a Division of Global
+                  Educational Services Lanka Private Limited that was
+                  established in 2011. GIHE is the comprehensive education
+                  conglomerate in Sri Lanka established to fulfill the growing
+                  demand for professional qualifications and higher education.
+                  We offer high quality and affordable International
+                  Qualifications partnered with International Organizations and
+                  Awarding bodies/Universities.
+                </p>
+                <p>
+                  GIHE provides comprehensive international educational programs
+                  ranging from Foundation to Masters level and professional
+                  services. We offer a wide range of globally recognized higher
+                  education qualifications that leads to successful career
+                  options for students after O/Level and A/Level.
+                </p>
+                <p>
+                  GIHE also provides alternative pathways for mature student’s
+                  and industry professionals. We enable them to acquire
+                  different levels of academic qualifications by investing their
+                  industry experience. These qualifications enable them to
+                  achieve overseas University admission, Industrial training or
+                  a Permanent Resident pathway.
+                </p>
               </div>
             </div>
           </div>
@@ -464,7 +445,11 @@ if (isset($_COOKIE[$cookie_name])) {
               </div>
               <div class="desc-wrap">
                 <p>
-                Freedo is our online platform to offer flexible study options to students in a diverse range of qualifications with internationally recognized universities. Students have the opportunity to study at their convenience from any part of the world. 
+                  Freedo is our online platform to offer flexible study options
+                  to students in a diverse range of qualifications with
+                  internationally recognized universities. Students have the
+                  opportunity to study at their convenience from any part of the
+                  world.
                 </p>
               </div>
             </div>
@@ -476,13 +461,20 @@ if (isset($_COOKIE[$cookie_name])) {
               </div>
               <div class="desc-wrap">
                 <p>
-                GES International Recruitment is your one-stop solution for all your international student migration needs ranging from educational counselling to arriving in respective countries. GES International Recruitment partnered with well reputed international university consortiums provide a wide range of direct university placements with higher benefits for students which allows students to get unbiased university placements with maximum discounts and scholarships. Our team of qualified and highly skilled professionals will work together to provide an immigration service par excellence.
+                  GES International Recruitment is your one-stop solution for
+                  all your international student migration needs ranging from
+                  educational counselling to arriving in respective countries.
+                  GES International Recruitment is partnered with well reputed
+                  international university consortiums to provide a wide range
+                  of direct university placements with higher benefits for
+                  students. This allows students to get an unbiased university
+                  placement with maximum discounts and scholarships. Our team of
+                  qualified and highly skilled professionals will work together
+                  to provide an immigration service par excellence.
                 </p>
               </div>
             </div>
           </div>
-
-
         </div>
       </div>
     </section>
@@ -541,42 +533,41 @@ if (isset($_COOKIE[$cookie_name])) {
     </section> -->
 
     <section class="customer-logos slider">
-      <div class="slide"><img src="img/uni/1.png"></div>
-      <div class="slide"><img src="img/uni/2.jpg"></div>
-      <div class="slide"><img src="img/uni/3.png"></div>
-      <div class="slide"><img src="img/uni/4.jpg"></div>
-      <div class="slide"><img src="img/uni/5.jpg"></div>
-      <div class="slide"><img src="img/uni/6.png"></div>
-      <div class="slide"><img src="img/uni/7.png"></div>
-      <div class="slide"><img src="img/uni/8.png"></div>
-      <div class="slide"><img src="img/uni/9.png"></div>
-      <div class="slide"><img src="img/uni/10.png"></div>
-      <div class="slide"><img src="img/uni/11.png"></div>
-      <div class="slide"><img src="img/uni/12.png"></div>
-      <div class="slide"><img src="img/uni/13.png"></div>
-      <div class="slide"><img src="img/uni/14.png"></div>
-      <div class="slide"><img src="img/uni/15.jpg"></div>
-      <div class="slide"><img src="img/uni/16.png"></div>
-      <div class="slide"><img src="img/uni/17.png"></div>
-      <div class="slide"><img src="img/uni/18.png"></div>
-      <div class="slide"><img src="img/uni/19.png"></div>
-      <div class="slide"><img src="img/uni/20.png"></div>
-      <div class="slide"><img src="img/uni/21.png"></div>
-      <div class="slide"><img src="img/uni/22.png"></div>
-      <div class="slide"><img src="img/uni/23.png"></div>
-      <div class="slide"><img src="img/uni/24.png"></div>
-      <div class="slide"><img src="img/uni/25.png"></div>
-      <div class="slide"><img src="img/uni/26.png"></div>
-      <div class="slide"><img src="img/uni/27.jpg"></div>
-      <div class="slide"><img src="img/uni/28.jpg"></div>
-      <div class="slide"><img src="img/uni/29.png"></div>
-      <div class="slide"><img src="img/uni/30.jpg"></div>
-      <div class="slide"><img src="img/uni/31.png"></div>
-      <div class="slide"><img src="img/uni/32.png"></div>
-      <div class="slide"><img src="img/uni/33.png"></div>
-      <div class="slide"><img src="img/uni/34.png"></div>
-     
-   </section>
+      <div class="slide"><img src="img/uni/1.png" /></div>
+      <div class="slide"><img src="img/uni/2.jpg" /></div>
+      <div class="slide"><img src="img/uni/3.png" /></div>
+      <div class="slide"><img src="img/uni/4.jpg" /></div>
+      <div class="slide"><img src="img/uni/5.jpg" /></div>
+      <div class="slide"><img src="img/uni/6.png" /></div>
+      <div class="slide"><img src="img/uni/7.png" /></div>
+      <div class="slide"><img src="img/uni/8.png" /></div>
+      <div class="slide"><img src="img/uni/9.png" /></div>
+      <div class="slide"><img src="img/uni/10.png" /></div>
+      <div class="slide"><img src="img/uni/11.png" /></div>
+      <div class="slide"><img src="img/uni/12.png" /></div>
+      <div class="slide"><img src="img/uni/13.png" /></div>
+      <div class="slide"><img src="img/uni/14.png" /></div>
+      <div class="slide"><img src="img/uni/15.jpg" /></div>
+      <div class="slide"><img src="img/uni/16.png" /></div>
+      <div class="slide"><img src="img/uni/17.png" /></div>
+      <div class="slide"><img src="img/uni/18.png" /></div>
+      <div class="slide"><img src="img/uni/19.png" /></div>
+      <div class="slide"><img src="img/uni/20.png" /></div>
+      <div class="slide"><img src="img/uni/21.png" /></div>
+      <div class="slide"><img src="img/uni/22.png" /></div>
+      <div class="slide"><img src="img/uni/23.png" /></div>
+      <div class="slide"><img src="img/uni/24.png" /></div>
+      <div class="slide"><img src="img/uni/25.png" /></div>
+      <div class="slide"><img src="img/uni/26.png" /></div>
+      <div class="slide"><img src="img/uni/27.jpg" /></div>
+      <div class="slide"><img src="img/uni/28.jpg" /></div>
+      <div class="slide"><img src="img/uni/29.png" /></div>
+      <div class="slide"><img src="img/uni/30.jpg" /></div>
+      <div class="slide"><img src="img/uni/31.png" /></div>
+      <div class="slide"><img src="img/uni/32.png" /></div>
+      <div class="slide"><img src="img/uni/33.png" /></div>
+      <div class="slide"><img src="img/uni/34.png" /></div>
+    </section>
     <!-- End feature Area -->
     <!-- Set up your HTML -->
 
@@ -606,12 +597,17 @@ if (isset($_COOKIE[$cookie_name])) {
           data-aos="flip-left"
           data-aos-duration="1000"
         >
-          <img src="https://images.pexels.com/photos/1079033/pexels-photo-1079033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+          <img
+            src="https://images.pexels.com/photos/1079033/pexels-photo-1079033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt=""
+          />
 
           <div class="card-des">
             <h2>Internationally Recognized</h2>
             <p>
-            We have affiliated with a large number of Universities, Colleges and Study Groups across the world to offer a wide range of internationally recognized qualifications. 
+              We have affiliated with a large number of Universities, Colleges
+              and Study Groups across the world to offer a wide range of
+              internationally recognized qualifications.
             </p>
           </div>
         </div>
@@ -620,11 +616,16 @@ if (isset($_COOKIE[$cookie_name])) {
           data-aos="flip-left"
           data-aos-duration="1000"
         >
-          <img src="https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+          <img
+            src="https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt=""
+          />
           <div class="card-des">
             <h2>Skilled Academic Team</h2>
             <p>
-            Our strong academic and management team consists of professionals who are also practitioners of their respective industry with valuable experience both locally and internationally.
+              Our strong academic and management team consists of professionals
+              who are also practitioners of their respective industry with
+              valuable experience both locally and internationally.
             </p>
           </div>
         </div>
@@ -633,11 +634,16 @@ if (isset($_COOKIE[$cookie_name])) {
           data-aos="flip-right"
           data-aos-duration="1000"
         >
-          <img src="https://images.pexels.com/photos/356043/pexels-photo-356043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+          <img
+            src="https://images.pexels.com/photos/356043/pexels-photo-356043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt=""
+          />
           <div class="card-des">
             <h2>Range of Options</h2>
             <p>
-            We offer a wide range of Higher Education Programs which allows students to choose from a large selection of subjects in a wide range of Universities.  
+              We offer a wide range of Higher Education Programs which allows
+              students to choose from a large selection of subjects in a wide
+              range of Universities.
             </p>
           </div>
         </div>
@@ -646,11 +652,15 @@ if (isset($_COOKIE[$cookie_name])) {
           data-aos="flip-right"
           data-aos-duration="1000"
         >
-          <img src="https://images.pexels.com/photos/7375/startup-photos.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+          <img
+            src="https://images.pexels.com/photos/7375/startup-photos.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt=""
+          />
           <div class="card-des">
             <h2>Flexibility</h2>
             <p>
-            Students have the options of studying programs and attending lectures online and offline based on their convenience. 
+              Students have the options of studying programs and attending
+              lectures online and offline based on their convenience.
             </p>
           </div>
         </div>
@@ -673,7 +683,10 @@ if (isset($_COOKIE[$cookie_name])) {
                 <h1>School of Management</h1>
                 <hr />
                 <p>
-                At GIHE School of Management we offer a wide range of business programs from globally recognized universities. We provide modern teaching and lectures that guarantee the compatibility to our students future challenges as leaders of the industry. 
+                  At GIHE School of Management we offer a wide range of business
+                  programs from globally recognized universities. We provide
+                  modern teaching and lectures that guarantee the compatibility
+                  to our students future challenges as leaders of the industry.
                 </p>
                 <a href="./School-of-Management.php"><span>Read More</span></a>
               </div>
@@ -690,11 +703,16 @@ if (isset($_COOKIE[$cookie_name])) {
                 <h1>School of Technology</h1>
                 <hr />
                 <p>
-                GIHE School of Technology in partnership with Quotro Pvt. Ltd. offers a unique study program with work placements. 
-This unique program allows students to gain international qualifications in different levels and relevant work experience to fulfill requirements to enter global work placements.
-
+                  GIHE School of Technology in partnership with Quotro Pvt. Ltd.
+                  offers a unique study program with work placements. This
+                  unique program allows students to gain international
+                  qualifications in different levels and relevant work
+                  experience to fulfill requirements to enter global work
+                  placements.
                 </p>
-                <a href="./information-technology.php"><span>Read More</span></a>
+                <a href="./information-technology.php"
+                  ><span>Read More</span></a
+                >
               </div>
             </div>
           </div>
@@ -709,7 +727,11 @@ This unique program allows students to gain international qualifications in diff
                 <h1>School of Law</h1>
                 <hr />
                 <p>
-                GIHE School of Law offers high quality legal education in an encouraging and interactive learning environment. We ensure that we produce legal professionals who are able to constructively contribute to the development of the profession.
+                  GIHE School of Law offers high quality legal education in an
+                  encouraging and interactive learning environment. We ensure
+                  that we produce legal professionals who are able to
+                  constructively contribute to the development of the
+                  profession.
                 </p>
                 <a href="./School-of-Law.php"><span>Read More</span></a>
               </div>
@@ -726,7 +748,12 @@ This unique program allows students to gain international qualifications in diff
                 <h1>School of Professional Studies</h1>
                 <hr />
                 <p>
-                At GIHE School of Professional Studies we offer students industry specified specialized programs to gain and enhance the skills and support they need to move their careers and industries forward. We offer high quality, internationally recognized programs in a dynamic, supportive learning environment. 
+                  At GIHE School of Professional Studies we offer students
+                  industry specified specialized programs to gain and enhance
+                  the skills and support they need to move their careers and
+                  industries forward. We offer high quality, internationally
+                  recognized programs in a dynamic, supportive learning
+                  environment.
                 </p>
                 <a href="./School-of-Professional-Studies.php"
                   ><span>Read More</span></a
@@ -745,7 +772,12 @@ This unique program allows students to gain international qualifications in diff
                 <h1>School of Language and Development</h1>
                 <hr />
                 <p>
-                GIHE School of Language and Development is designed to assist students in expanding their language and communication skills by using modern techniques to explore a new world of opportunities. Our main goal is to provide language training with highly qualified professionals to ensure our students success.
+                  GIHE School of Language and Development is designed to assist
+                  students in expanding their language and communication skills
+                  by using modern techniques to explore a new world of
+                  opportunities. Our main goal is to provide language training
+                  with highly qualified professionals to ensure our students
+                  success.
                 </p>
                 <a href="./School-of-Language-and-Development.php"
                   ><span>Read More</span></a
@@ -1044,7 +1076,18 @@ This unique program allows students to gain international qualifications in diff
                 </div>
               </div>
               <p>
-              I came to this institution as student right after my A levels.After considering my qualifications and ectra curricular activities I was given 100% scholarship to study in the Biggest University in China , Zhengzhou University. The well educated consultants guided me in both the university application and the VISA application. I got a 100% scholarship to study software engineering.I would encourage you all to visit there and experience the most valuable service that you can ever receive to build up your future. Once again I thank the GES international for showing and helping me to access my future path and I wish them all the very best in there future endeavours.
+                I came to this institution as student right after my A
+                levels.After considering my qualifications and ectra curricular
+                activities I was given 100% scholarship to study in the Biggest
+                University in China , Zhengzhou University. The well educated
+                consultants guided me in both the university application and the
+                VISA application. I got a 100% scholarship to study software
+                engineering.I would encourage you all to visit there and
+                experience the most valuable service that you can ever receive
+                to build up your future. Once again I thank the GES
+                international for showing and helping me to access my future
+                path and I wish them all the very best in there future
+                endeavours.
               </p>
             </div>
             <div class="single-review item">
@@ -1059,7 +1102,16 @@ This unique program allows students to gain international qualifications in diff
                 </div>
               </div>
               <p>
-              Joining hands with GES has no doubt been one of the best decisions I've made in my life. GES is very customer friendly, convenient as well as a 100% POSITIVE result oriented work force. So many opportunities have opened up for me with their consultancy and guidance. My English skills improved and I was able to get an overall score of 8 out of 9 for my IELTS Examination, with which I will soon migrate to a Western country. None of this would have been possible without GES, so with 200% confidence I recommend anyone with plans to go abroad to join hands with GES.
+                Joining hands with GES has no doubt been one of the best
+                decisions I've made in my life. GES is very customer friendly,
+                convenient as well as a 100% POSITIVE result oriented work
+                force. So many opportunities have opened up for me with their
+                consultancy and guidance. My English skills improved and I was
+                able to get an overall score of 8 out of 9 for my IELTS
+                Examination, with which I will soon migrate to a Western
+                country. None of this would have been possible without GES, so
+                with 200% confidence I recommend anyone with plans to go abroad
+                to join hands with GES.
               </p>
             </div>
             <div class="single-review item">
@@ -1074,7 +1126,13 @@ This unique program allows students to gain international qualifications in diff
                 </div>
               </div>
               <p>
-              I came to the GES International  in January. I had a chance to learn English in that month. After that I started the process to go to Australia .I was able to finish   that within a month and also i was able to have my visa within two months. Actually I am very happy about that. I am to go to Australia  this April . I got this chance  through GES International . Therefore I say thanks to GES International
+                I came to the GES International in January. I had a chance to
+                learn English in that month. After that I started the process to
+                go to Australia .I was able to finish that within a month and
+                also i was able to have my visa within two months. Actually I am
+                very happy about that. I am to go to Australia this April . I
+                got this chance through GES International . Therefore I say
+                thanks to GES International
               </p>
             </div>
             <div class="single-review item">
@@ -1089,7 +1147,7 @@ This unique program allows students to gain international qualifications in diff
                 </div>
               </div>
               <p>
-              Good place to improve English language.
+                Good place to improve English language.
               </p>
             </div>
             <div class="single-review item">
@@ -1104,7 +1162,8 @@ This unique program allows students to gain international qualifications in diff
                 </div>
               </div>
               <p>
-              Well planned and organized place. 100% accurate information. Trustworthy.
+                Well planned and organized place. 100% accurate information.
+                Trustworthy.
               </p>
             </div>
             <div class="single-review item">
@@ -1119,10 +1178,9 @@ This unique program allows students to gain international qualifications in diff
                 </div>
               </div>
               <p>
-              The best study centre in the Sri Lanka
+                The best study centre in the Sri Lanka
               </p>
             </div>
-           
           </div>
         </div>
       </div>
@@ -1145,7 +1203,7 @@ This unique program allows students to gain international qualifications in diff
     <!-- End cta-two Area -->
 
     <!-- start footer Area -->
-<?php include 'footer.php' ?>
+    <?php include 'footer.php' ?>
     <!-- End footer Area -->
 
     <script src="res/js/vendor/jquery-2.2.4.min.js"></script>
@@ -1168,7 +1226,8 @@ This unique program allows students to gain international qualifications in diff
     <script src="res/js/main.js"></script>
 
     <script src="js/user.js"></script>
-    
+
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
@@ -1318,32 +1377,34 @@ This unique program allows students to gain international qualifications in diff
       })();
     </script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
-<script>
-$(document).ready(function(){
-    $('.customer-logos').slick({
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 1500,
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        responsive: [{
-            breakpoint: 768,
-            settings: {
+    <script>
+      $(document).ready(function() {
+        $('.customer-logos').slick({
+          slidesToShow: 6,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1500,
+          arrows: false,
+          dots: false,
+          pauseOnHover: false,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
                 slidesToShow: 4
-            }
-        }, {
-            breakpoint: 520,
-            settings: {
+              }
+            },
+            {
+              breakpoint: 520,
+              settings: {
                 slidesToShow: 3
+              }
             }
-        }]
-    });
-});
-</script>
-
+          ]
+        });
+      });
+    </script>
   </body>
 </html>

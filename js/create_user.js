@@ -158,10 +158,10 @@ function save_inv()
         // }
 
         
-        if (document.getElementById('txtPassword').value != document.getElementById('txtPassword1').value) {
-            document.getElementById("txterror").innerHTML = "Password doesn't Match";
-            return false;
-        }
+        // if (document.getElementById('txtPassword').value != document.getElementById('txtPassword1').value) {
+        //     document.getElementById("txterror").innerHTML = "Password doesn't Match";
+        //     return false;
+        // }
 
         var url = "CheckUsers.php";
         url = url + "?Command=" + "save_inv";
@@ -239,7 +239,7 @@ function passsuppresult_save_inv()
 
         if (xmlHttp.responseText == "LOG") {
 //            document.getElementById('msg_box').innerHTML = "<div class='alert alert-success' role='alert'><span class='center-block'>Saved</span></div>";
-            document.getElementById("txterror").innerHTML = xmlHttp.responseText;
+            // document.getElementById("txterror").innerHTML = xmlHttp.responseText;
             location.href = "home.php";
             // newent();
 

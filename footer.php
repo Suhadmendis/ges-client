@@ -127,5 +127,7 @@
 
           </div>
         </div>
+
+        <div><p>Powered by QUOTRO (PVT) LTD 2020</p></div>
       </div>
     </footer>
