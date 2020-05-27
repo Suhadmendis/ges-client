@@ -687,16 +687,16 @@
     <!--
 			CSS
 			============================================= -->
-    <link rel="stylesheet" href="css/linearicons.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/nice-select.css" />
-    <link rel="stylesheet" href="css/animate.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.css" />
-    <link rel="stylesheet" href="css/jquery-ui.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="../res/css/linearicons.css" />
+    <link rel="stylesheet" href="../res/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../res/css/bootstrap.css" />
+    <link rel="stylesheet" href="../res/css/magnific-popup.css" />
+    <link rel="stylesheet" href="../res/css/nice-select.css" />
+    <link rel="stylesheet" href="../res/css/animate.min.css" />
+    <link rel="stylesheet" href="../res/css/owl.carousel.css" />
+    <link rel="stylesheet" href="../res/css/jquery-ui.css" />
+    <link rel="stylesheet" href="../res/css/main.css" />
+    <link rel="stylesheet" href="../res/css/custom.css" />
   </head>
   <body>
     <?php include 'header.php' ?>
@@ -744,7 +744,7 @@
         <div class="awarding-wrapper">
           <div class="awarding-card-item">
             <div class="awarding-card-item-img">
-              <img src="img/tvec.jpg" alt="" />
+              <img src="../img/tvec.jpg" alt="" />
             </div>
             <div class="awarding-des">
               <h2>TVEC</h2>
@@ -758,7 +758,7 @@
           </div>
           <div class="awarding-card-item">
             <div class="awarding-card-item-img">
-              <img src="img/on-sky.png" alt="" />
+              <img src="../img/on-sky.png" alt="" />
             </div>
             <div class="awarding-des">
               <h2>On Sky Global</h2>
@@ -779,9 +779,9 @@
               </p>
             </div>
           </div>
-          <div class="awarding-card-item">
+          <!-- <div class="awarding-card-item">
             <div class="awarding-card-item-img">
-              <img src="img/bml.jpg" alt="" />
+              <img src="../img/bml.jpg" alt="" />
             </div>
             <div class="awarding-des">
               <h2>BML College UK</h2>
@@ -805,10 +805,10 @@
 
               <p>BML College UK operates in Sri Lanka through GIHE Campus.</p>
             </div>
-          </div>
-          <div class="awarding-card-item">
+          </div> -->
+          <!-- <div class="awarding-card-item">
             <div class="awarding-card-item-img">
-              <img src="img/lmq.png" alt="" />
+              <img src="../img/lmq.png" alt="" />
             </div>
             <div class="awarding-des">
               <h2>London Management Qualifications (LMQ)</h2>
@@ -818,10 +818,10 @@
                 innovative programs covering a range of levels of study.
               </p>
             </div>
-          </div>
-          <div class="awarding-card-item">
+          </div> -->
+          <!-- <div class="awarding-card-item">
             <div class="awarding-card-item-img">
-              <img src="img/othm.jpg" alt="" />
+              <img src="../img/othm.jpg" alt="" />
             </div>
             <div class="awarding-des">
               <h2>Othm</h2>
@@ -831,11 +831,11 @@
                 recognized by Qualifications Wales.
               </p>
             </div>
-          </div>
+          </div> -->
 
           <div class="awarding-card-item">
             <div class="awarding-card-item-img">
-              <img src="img/ielts.png" alt="" />
+              <img src="../img/ielts.png" alt="" />
             </div>
             <div class="awarding-des">
               <h2>IDP Sri Lanka</h2>

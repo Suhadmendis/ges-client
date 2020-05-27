@@ -37,7 +37,7 @@
                 </li>
                 <li><a href="#"> Mon to Fri 9am to 6 pm </a></li>
 
-                <li><a href="#">info@gesedu.lk </a></li>
+                <li><a href="#">info@gihe.lk </a></li>
 
                 Send us your query anytime!
               </ul>
@@ -131,3 +131,25 @@
         <div><p>Powered by QUOTRO (PVT) LTD 2020</p></div>
       </div>
     </footer>
+
+    <script src="../res/js/vendor/jquery-2.2.4.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../res/js/vendor/bootstrap.min.js"></script>
+    <script src="../res/js/easing.min.js"></script>
+    <script src="../res/js/hoverIntent.js"></script>
+    <script src="../res/js/superfish.min.js"></script>
+    <script src="../res/js/jquery.ajaxchimp.min.js"></script>
+    <script src="../res/js/jquery.magnific-popup.min.js"></script>
+    <script src="../res/js/jquery.tabs.min.js"></script>
+    <script src="../res/js/jquery.nice-select.min.js"></script>
+    <script src="../res/js/owl.carousel.min.js"></script>
+    <script src="../res/js/mail-script.js"></script>
+    <script src="../res/js/main.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+   

@@ -1,3 +1,13 @@
+    <link rel="stylesheet" href="../res/css/linearicons.css" />
+    <link rel="stylesheet" href="../res/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../res/css/bootstrap.css" />
+    <link rel="stylesheet" href="../res/css/magnific-popup.css" />
+    <link rel="stylesheet" href="../res/css/nice-select.css" />
+    <link rel="stylesheet" href="../res/css/animate.min.css" />
+    <link rel="stylesheet" href="../res/css/owl.carousel.css" />
+    <link rel="stylesheet" href="../res/css/jquery-ui.css" />
+    <link rel="stylesheet" href="../res/css/main.css" />
+    <link rel="stylesheet" href="../res/css/custom.css" />
 <a id="button"></a>
     <header id="header" id="home">
       <div class="header-top">
@@ -20,29 +30,33 @@
               </ul>
             </div>
             <div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
+            <a href="http://webmail.gihe.lk/" target="blank"
+                ><span class="lnr lnr-phone-handset"></span>
+                <span class="text">Login</span></a
+              >
               <a href="tel:+953 012 3654 896"
                 ><span class="lnr lnr-phone-handset"></span>
                 <span class="text">+94 764849994</span></a
               >
-              <a href="mailto:info@gesedu.lk"
+              <a href="mailto:info@gihe.lk"
                 ><span class="lnr lnr-envelope"></span>
-                <span class="text">info@gesedu.lk</span></a
+                <span class="text">info@gihe.lk</span></a
               >
 
-              <?php if (isset($_SESSION['UserName'])) { ?>
-                      <a href=""
+              <?php //if (isset($_SESSION['UserName'])) { ?>
+                      <!-- <a href=""
                         ><span class="lnr lnr-envelope"></span>
                         <span class="text">
-                         <?php   echo $_SESSION['UserName'];  ?>
+                         <?php  // echo $_SESSION['UserName'];  ?>
                         </span></a
                       >
 
                       <a href="" onclick="logout();" 
                         ><span class="lnr lnr-envelope"></span>
                         <span class="text">Logout</span></a
-                      >
-                  <?php }else{ ?>
-                      <a href="login_form.php"
+                      > -->
+                  <?php //}else{ ?>
+                      <!-- <a href="login_form.php"
                         ><span class="lnr lnr-envelope"></span>
                         <span class="text">Sign In</span></a
                       >
@@ -51,8 +65,8 @@
                         ><span class="lnr lnr-envelope"></span>
                         <span class="text">Sign Up</span></a
                       >
-                   
-                  <?php } ?>
+                    -->
+                  <?php //} ?>
 
 
             </div>
@@ -62,8 +76,8 @@
       <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
           <div id="logo">
-            <a href="index.php"
-              ><img src="img/GES_Png.png" alt="" title=""
+            <a href="../index.php"
+              ><img src="../img/GIHE-CAMPUS.png" alt="" title=""
             /></a>
           </div>
 
@@ -72,7 +86,7 @@
           </div> -->
           <nav id="nav-menu-container">
             <ul class="nav-menu">
-              <li><a href="index.php">Home</a></li>
+              <li><a href="../index.php">Home</a></li>
 
               <li class="menu-has-children">
                     <a href="">About</a>

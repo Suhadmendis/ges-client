@@ -684,19 +684,7 @@
         display: none;
       }
     </style>
-    <!--
-			CSS
-			============================================= -->
-    <link rel="stylesheet" href="css/linearicons.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/nice-select.css" />
-    <link rel="stylesheet" href="css/animate.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.css" />
-    <link rel="stylesheet" href="css/jquery-ui.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/custom.css" />
+
   </head>
   <body>
     <?php include 'header.php' ?>
@@ -709,12 +697,12 @@
         <div class="row d-flex align-items-center justify-content-center">
           <div class="about-content col-lg-12">
             <h1 class="text-white">
-              About Us
+              Vision and Mission
             </h1>
             <p class="text-white link-nav">
               <a href="index.php">Home </a>
               <span class="lnr lnr-arrow-right"></span>
-              <a href="about.php"> About Us</a>
+              <a href="about.php">Vision and Mission</a>
             </p>
           </div>
         </div>
@@ -723,10 +711,10 @@
     <!-- End banner Area -->
     <section class="about-us-main">
       <div class="about-us-links-wrapper">
-        <div class="about-us-link active-about">
+        <div class="about-us-link ">
           <a href="./about-new.php">About Us</a>
         </div>
-        <div class="about-us-link">
+        <div class="about-us-link active-about">
           <a href="./vision-and-mission.php">Vision and Mission</a>
         </div>
         <div class="about-us-link">
@@ -741,33 +729,19 @@
         </div>
       </div>
       <div class="about-us-link-contents">
-        <h2>Ensure Global Career Opportunities!</h2>
-
+        <h2>Vision</h2>
         <p>
-                  GIHE Center for advanced studies is a Division of Global
-                  Educational Services Lanka Private Limited that was
-                  established in 2011. GIHE is the comprehensive education
-                  conglomerate in Sri Lanka established to fulfill the growing
-                  demand for professional qualifications and higher education.
-                  We offer high quality and affordable International
-                  Qualifications partnered with International Organizations and
-                  Awarding bodies/Universities.
-                </p>
-                <p>
-                  GIHE provides comprehensive international educational programs
-                  ranging from Foundation to Masters level and professional
-                  services. We offer a wide range of globally recognized higher
-                  education qualifications that leads to successful career
-                  options for students after O/Level and A/Level.
-                </p>
-                <p>
-                  GIHE also provides alternative pathways for mature student’s
-                  and industry professionals. We enable them to acquire
-                  different levels of academic qualifications by investing their
-                  industry experience. These qualifications enable them to
-                  achieve overseas University admission, Industrial training or
-                  a Permanent Resident pathway.
-                </p>
+        GIHE Campus will provide an exceptional student centered experience which is based on both internationally significant best practices. We will build on a tradition of distinction in academic, professional and social engagement to enhance our reputation as a Campus which educates confident citizens characterized by their generosity of spirit.
+        </p>
+
+        <h2>Mission</h2>
+        <p>
+        GIHE Campus is committed to lead the intellectual, social and economic development of the communities it serves through teaching, developing language skills, soft-skills and creativity that achieve the highest standards.
+        </p>
+
+        <h2>Values</h2>
+
+        <p>In the development and nurturing of intellectual and enterprising creativity we make our highest contribution to society. Social responsibility demands that all aspects of our activity should be sustainable. Equality, inclusivity and the celebration of diversity must be foundation for all what we do. We will never be content with anything other than a wholehearted commitment to the quality of the student experience. We will continue to enhance the value and the perception of value of our social as well as education mission.</p>
       </div>
     </section>
 
@@ -791,24 +765,7 @@
     <?php include 'footer.php' ?>
     <!-- End footer Area -->
 
-    <script src="js/vendor/jquery-2.2.4.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-    <script src="js/easing.min.js"></script>
-    <script src="js/hoverIntent.js"></script>
-    <script src="js/superfish.min.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.tabs.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/mail-script.js"></script>
-    <script src="js/main.js"></script>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 

@@ -23,22 +23,12 @@
       href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700"
       rel="stylesheet"
     />
-    <!--
-			CSS
-			============================================= -->
-    <link rel="stylesheet" href="css/linearicons.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/nice-select.css" />
-    <link rel="stylesheet" href="css/animate.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.css" />
-    <link rel="stylesheet" href="css/jquery-ui.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/custom.css" />
+  
+		
+
   </head>
   <body>
-  <?php include 'header.php' ?>
+    <?php include 'header.php' ?>
     <!-- #header -->
 
     <!-- start banner Area -->
@@ -48,12 +38,12 @@
         <div class="row d-flex align-items-center justify-content-center">
           <div class="about-content col-lg-12">
             <h1 class="text-white">
-            School of Language and Development  
+              School of Technology
             </h1>
             <p class="text-white link-nav">
               <a href="index.html">Home </a>
               <span class="lnr lnr-arrow-right"></span>
-              <a href="contact.html"> School of Language and Development  </a>
+              <a href="contact.html"> School of Technology</a>
             </p>
           </div>
         </div>
@@ -62,7 +52,9 @@
     <!-- End banner Area -->
     <div class="awrding-main-des">
       <h3>
-      GIHE School of Language and Development is designed to assist students in expanding their language and communication skills by using modern techniques to explore a new world of opportunities. Our main goal is to provide language training with highly qualified professionals to ensure our students success.
+      At GIHE school of Technology, our focus is to build world class IT and Engineering professionals. Students have the options of studying these programs online and offline (classroom) along with career placements both locally and internationally.<br>
+
+GIHE School of Technology in partnership with Quotro Pvt. Ltd. offers a unique study program with work placements named JOBplus. This unique program allows students to gain international qualifications in different levels and relevant work experience to fulfill requirements to enter global work placements. In addition, students will get communication skill development, language fluency and exposure to real world work experience with a remuneration package.
 
       </h3>
     </div>
@@ -71,19 +63,12 @@
       <div class="faculty-wrap">
         <div class="first-faculty-section">
           <div class="faculty-card">
-          <div class="faculty-title">School of Language and Development</div>
             <div style="display:grid">
               <button
                 class="w3-bar-item w3-button tablink w3-red"
                 onclick="openCity(event,'if')"
               >
-              Language Courses 
-              </button>
-              <button
-                class="w3-bar-item w3-button tablink"
-                onclick="openCity(event,'pd')"
-              >
-              Personality Development Courses 
+              School of Technology
               </button>
             </div>
           </div>
@@ -91,45 +76,49 @@
         <div class="faculty-des">
           <div id="if" class="w3-container w3-border city">
             <li class="link-it">
-              <a href="#">IELTS, PTE, UKVI and CBT Classes</a>
+              <a href="#">International Foundation (IT Pathway) (Level 3)</a>
+            </li>
+            <li class="link-it">
+              <a href="#"> HND in Information Technology (Level 5)</a>
             </li>
             <li class="link-it">
               <a href="#"
-                >Diploma in Business English</a
+                >Graduate Diploma in Information Technology (Level 6)</a
               >
             </li>
             <li class="link-it">
-              <a href="#">Certificate in Creative Writing</a>
+              <a href="#"
+                >Postgraduate Diploma in Information Technology (Level 7)</a
+              >
             </li>
             <li class="link-it">
-              <a href="#">Language Training </a>
-
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <ul>
-                  <li>English</li>
-                  <li>Sinhala</li>
-                  <li>Tamil</li>
-                  <li>French</li>
-                  <li>Japanese</li>
-                <li>Chinese</li> 
-                <li>German</li>          
-
-              </ul>
-            </li>
-
-
-
-
-          </div>
-          <div id="pd" class="w3-container w3-border city" style="display:none">
-            <li class="link-it">
-              <a href="#">Personality Development Program (Confident +)</a>
+              <a href="#">Advanced Certificate in Hardware & Networking </a>
             </li>
             <li class="link-it">
-              <a href="#">Corporate Training </a>
+              <a href="#"
+                >Professional Certificate in Data Communications & Network</a
+              >
             </li>
-
-
-
+            <li class="link-it">
+              <a href="#"
+                >Professional Certificate in Database Administration &
+                Technology</a
+              >
+            </li>
+            <li class="link-it">
+              <a href="#">Professional Certificate in Programming</a>
+            </li>
+            <li class="link-it">
+              <a href="#">Professional Certificate in Cloud Computing</a>
+            </li>
+            <li class="link-it">
+              <a href="#"
+                >Professional Certificate in Web Designing & Development</a
+              >
+            </li>
+            <li class="link-it">
+              <a href="#">Professional Certificate in Graphic Designing </a>
+            </li>
           </div>
         </div>
       </div>
@@ -138,24 +127,7 @@
     <?php include 'footer.php' ?>
     <!-- End footer Area -->
 
-    <script src="js/vendor/jquery-2.2.4.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="js/easing.min.js"></script>
-    <script src="js/hoverIntent.js"></script>
-    <script src="js/superfish.min.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.tabs.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/mail-script.js"></script>
-    <script src="js/main.js"></script>
+
     <script>
       function openCity(evt, cityName) {
         var i, x, tablinks;

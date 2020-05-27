@@ -1,5 +1,5 @@
 <?php
-include './CheckCookie.php';
+include 'CheckCookie.php';
 $cookie_name = "user";
 $mo = "";
 if (isset($_COOKIE[$cookie_name])) {
@@ -7,11 +7,11 @@ if (isset($_COOKIE[$cookie_name])) {
     $mo = chk_cookie($_COOKIE[$cookie_name]);
 
     if (true) {
-        header('Location: ' . "home.php");
+        header('Location: ' . "views/home.php");
         exit();
     }
 }
-header('Location: ' . "home.php");
+header('Location: ' . "views/home.php");
 exit();
 ?> 
 <!DOCTYPE html>

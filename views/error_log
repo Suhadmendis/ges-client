@@ -1,0 +1,24 @@
+[03-Apr-2020 16:39:58 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/gesedulk/public_html/connection_sql.php:20
+Stack trace:
+#0 /home/gesedulk/public_html/connection_sql.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/gesedulk/public_html/views/home.php(3): require_once('/home/gesedulk/...')
+#2 {main}
+  thrown in /home/gesedulk/public_html/connection_sql.php on line 20
+[03-Apr-2020 16:40:03 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/gesedulk/public_html/connection_sql.php:20
+Stack trace:
+#0 /home/gesedulk/public_html/connection_sql.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/gesedulk/public_html/views/home.php(3): require_once('/home/gesedulk/...')
+#2 {main}
+  thrown in /home/gesedulk/public_html/connection_sql.php on line 20
+[03-Apr-2020 16:40:18 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/gesedulk/public_html/connection_sql.php:20
+Stack trace:
+#0 /home/gesedulk/public_html/connection_sql.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/gesedulk/public_html/views/home.php(3): require_once('/home/gesedulk/...')
+#2 {main}
+  thrown in /home/gesedulk/public_html/connection_sql.php on line 20
+[03-Apr-2020 16:40:21 Asia/Colombo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/gesedulk/public_html/connection_sql.php:20
+Stack trace:
+#0 /home/gesedulk/public_html/connection_sql.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/gesedulk/public_html/views/home.php(3): require_once('/home/gesedulk/...')
+#2 {main}
+  thrown in /home/gesedulk/public_html/connection_sql.php on line 20

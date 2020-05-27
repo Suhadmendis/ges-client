@@ -23,22 +23,11 @@
       href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700"
       rel="stylesheet"
     />
-    <!--
-			CSS
-			============================================= -->
-    <link rel="stylesheet" href="css/linearicons.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/nice-select.css" />
-    <link rel="stylesheet" href="css/animate.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.css" />
-    <link rel="stylesheet" href="css/jquery-ui.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/custom.css" />
+
+
   </head>
   <body>
-    <?php include 'header.php' ?>
+  <?php include 'header.php' ?>
     <!-- #header -->
 
     <!-- start banner Area -->
@@ -48,12 +37,12 @@
         <div class="row d-flex align-items-center justify-content-center">
           <div class="about-content col-lg-12">
             <h1 class="text-white">
-              School of Technology
+              School of Law
             </h1>
             <p class="text-white link-nav">
               <a href="index.html">Home </a>
               <span class="lnr lnr-arrow-right"></span>
-              <a href="contact.html"> School of Technology</a>
+              <a href="contact.html"> School of Law</a>
             </p>
           </div>
         </div>
@@ -62,9 +51,7 @@
     <!-- End banner Area -->
     <div class="awrding-main-des">
       <h3>
-      At GIHE school of Technology, our focus is to build world class IT and Engineering professionals. Students have the options of studying these programs online and offline (classroom) along with career placements both locally and internationally.<br>
-
-GIHE School of Technology in partnership with Quotro Pvt. Ltd. offers a unique study program with work placements named JOBplus. This unique program allows students to gain international qualifications in different levels and relevant work experience to fulfill requirements to enter global work placements. In addition, students will get communication skill development, language fluency and exposure to real world work experience with a remuneration package.
+      GIHE School of Law offers high quality legal education in an encouraging and interactive learning environment. We ensure that we produce legal professionals who are able to constructively contribute to the development of the profession.
 
       </h3>
     </div>
@@ -78,7 +65,7 @@ GIHE School of Technology in partnership with Quotro Pvt. Ltd. offers a unique s
                 class="w3-bar-item w3-button tablink w3-red"
                 onclick="openCity(event,'if')"
               >
-              School of Technology
+                School of Law
               </button>
             </div>
           </div>
@@ -86,48 +73,18 @@ GIHE School of Technology in partnership with Quotro Pvt. Ltd. offers a unique s
         <div class="faculty-des">
           <div id="if" class="w3-container w3-border city">
             <li class="link-it">
-              <a href="#">International Foundation (IT Pathway) (Level 3)</a>
-            </li>
-            <li class="link-it">
-              <a href="#"> HND in Information Technology (Level 5)</a>
+              <a href="#">International Foundation (Law Pathway) (Level 3)</a>
             </li>
             <li class="link-it">
               <a href="#"
-                >Graduate Diploma in Information Technology (Level 6)</a
+                >Graduate Diploma in International Business Law (Level 6)</a
               >
             </li>
             <li class="link-it">
-              <a href="#"
-                >Postgraduate Diploma in Information Technology (Level 7)</a
-              >
+              <a href="#">Graduate Diploma in Law (GDL)</a>
             </li>
             <li class="link-it">
-              <a href="#">Advanced Certificate in Hardware & Networking </a>
-            </li>
-            <li class="link-it">
-              <a href="#"
-                >Professional Certificate in Data Communications & Network</a
-              >
-            </li>
-            <li class="link-it">
-              <a href="#"
-                >Professional Certificate in Database Administration &
-                Technology</a
-              >
-            </li>
-            <li class="link-it">
-              <a href="#">Professional Certificate in Programming</a>
-            </li>
-            <li class="link-it">
-              <a href="#">Professional Certificate in Cloud Computing</a>
-            </li>
-            <li class="link-it">
-              <a href="#"
-                >Professional Certificate in Web Designing & Development</a
-              >
-            </li>
-            <li class="link-it">
-              <a href="#">Professional Certificate in Graphic Designing </a>
+              <a href="#">Legal Practice Course (LPC)</a>
             </li>
           </div>
         </div>
@@ -137,24 +94,7 @@ GIHE School of Technology in partnership with Quotro Pvt. Ltd. offers a unique s
     <?php include 'footer.php' ?>
     <!-- End footer Area -->
 
-    <script src="js/vendor/jquery-2.2.4.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="js/easing.min.js"></script>
-    <script src="js/hoverIntent.js"></script>
-    <script src="js/superfish.min.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.tabs.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/mail-script.js"></script>
-    <script src="js/main.js"></script>
+
     <script>
       function openCity(evt, cityName) {
         var i, x, tablinks;

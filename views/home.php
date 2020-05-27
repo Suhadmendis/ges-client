@@ -1,20 +1,4 @@
-<?php
-include './CheckCookie.php';
-require_once ('connection_sql.php');
-$cookie_name = "user";
-if (isset($_COOKIE[$cookie_name])) {
-    $mo = chk_cookie($_COOKIE[$cookie_name]);
-    if ($mo != "ok") {
-        // header('Location: ' . "index.php");
-        // exit();
-    }
-} else {
-    // header('Location: ' . "index.php");
-    // exit();
-}
 
-
-?>
 
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
@@ -404,7 +388,7 @@ if (isset($_COOKIE[$cookie_name])) {
     <section class="feature-area">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-6">
             <div class="single-feature">
               <div class="title">
                 <h4>Campus</h4>
@@ -438,7 +422,7 @@ if (isset($_COOKIE[$cookie_name])) {
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-6">
             <div class="single-feature">
               <div class="title">
                 <h4>Freedo</h4>
@@ -454,27 +438,7 @@ if (isset($_COOKIE[$cookie_name])) {
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="single-feature">
-              <div class="title">
-                <h4>Study Abroad</h4>
-              </div>
-              <div class="desc-wrap">
-                <p>
-                  GES International Recruitment is your one-stop solution for
-                  all your international student migration needs ranging from
-                  educational counselling to arriving in respective countries.
-                  GES International Recruitment is partnered with well reputed
-                  international university consortiums to provide a wide range
-                  of direct university placements with higher benefits for
-                  students. This allows students to get an unbiased university
-                  placement with maximum discounts and scholarships. Our team of
-                  qualified and highly skilled professionals will work together
-                  to provide an immigration service par excellence.
-                </p>
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
@@ -533,40 +497,40 @@ if (isset($_COOKIE[$cookie_name])) {
     </section> -->
 
     <section class="customer-logos slider">
-      <div class="slide"><img src="img/uni/1.png" /></div>
-      <div class="slide"><img src="img/uni/2.jpg" /></div>
-      <div class="slide"><img src="img/uni/3.png" /></div>
-      <div class="slide"><img src="img/uni/4.jpg" /></div>
-      <div class="slide"><img src="img/uni/5.jpg" /></div>
-      <div class="slide"><img src="img/uni/6.png" /></div>
-      <div class="slide"><img src="img/uni/7.png" /></div>
-      <div class="slide"><img src="img/uni/8.png" /></div>
-      <div class="slide"><img src="img/uni/9.png" /></div>
-      <div class="slide"><img src="img/uni/10.png" /></div>
-      <div class="slide"><img src="img/uni/11.png" /></div>
-      <div class="slide"><img src="img/uni/12.png" /></div>
-      <div class="slide"><img src="img/uni/13.png" /></div>
-      <div class="slide"><img src="img/uni/14.png" /></div>
-      <div class="slide"><img src="img/uni/15.jpg" /></div>
-      <div class="slide"><img src="img/uni/16.png" /></div>
-      <div class="slide"><img src="img/uni/17.png" /></div>
-      <div class="slide"><img src="img/uni/18.png" /></div>
-      <div class="slide"><img src="img/uni/19.png" /></div>
-      <div class="slide"><img src="img/uni/20.png" /></div>
-      <div class="slide"><img src="img/uni/21.png" /></div>
-      <div class="slide"><img src="img/uni/22.png" /></div>
-      <div class="slide"><img src="img/uni/23.png" /></div>
-      <div class="slide"><img src="img/uni/24.png" /></div>
-      <div class="slide"><img src="img/uni/25.png" /></div>
-      <div class="slide"><img src="img/uni/26.png" /></div>
-      <div class="slide"><img src="img/uni/27.jpg" /></div>
-      <div class="slide"><img src="img/uni/28.jpg" /></div>
-      <div class="slide"><img src="img/uni/29.png" /></div>
-      <div class="slide"><img src="img/uni/30.jpg" /></div>
-      <div class="slide"><img src="img/uni/31.png" /></div>
-      <div class="slide"><img src="img/uni/32.png" /></div>
-      <div class="slide"><img src="img/uni/33.png" /></div>
-      <div class="slide"><img src="img/uni/34.png" /></div>
+      <div class="slide"><img src="../img/uni/1.png" /></div>
+      <div class="slide"><img src="../img/uni/2.jpg" /></div>
+      <div class="slide"><img src="../img/uni/3.png" /></div>
+      <div class="slide"><img src="../img/uni/4.jpg" /></div>
+      <div class="slide"><img src="../img/uni/5.jpg" /></div>
+      <div class="slide"><img src="../img/uni/6.png" /></div>
+      <div class="slide"><img src="../img/uni/7.png" /></div>
+      <div class="slide"><img src="../img/uni/8.png" /></div>
+      <div class="slide"><img src="../img/uni/9.png" /></div>
+      <div class="slide"><img src="../img/uni/10.png" /></div>
+      <div class="slide"><img src="../img/uni/11.png" /></div>
+      <div class="slide"><img src="../img/uni/12.png" /></div>
+      <div class="slide"><img src="../img/uni/13.png" /></div>
+      <div class="slide"><img src="../img/uni/14.png" /></div>
+      <div class="slide"><img src="../img/uni/15.jpg" /></div>
+      <div class="slide"><img src="../img/uni/16.png" /></div>
+      <div class="slide"><img src="../img/uni/17.png" /></div>
+      <div class="slide"><img src="../img/uni/18.png" /></div>
+      <div class="slide"><img src="../img/uni/19.png" /></div>
+      <div class="slide"><img src="../img/uni/20.png" /></div>
+      <div class="slide"><img src="../img/uni/21.png" /></div>
+      <div class="slide"><img src="../img/uni/22.png" /></div>
+      <div class="slide"><img src="../img/uni/23.png" /></div>
+      <div class="slide"><img src="../img/uni/24.png" /></div>
+      <div class="slide"><img src="../img/uni/25.png" /></div>
+      <div class="slide"><img src="../img/uni/26.png" /></div>
+      <div class="slide"><img src="../img/uni/27.jpg" /></div>
+      <div class="slide"><img src="../img/uni/28.jpg" /></div>
+      <div class="slide"><img src="../img/uni/29.png" /></div>
+      <div class="slide"><img src="../img/uni/30.jpg" /></div>
+      <div class="slide"><img src="../img/uni/31.png" /></div>
+      <div class="slide"><img src="../img/uni/32.png" /></div>
+      <div class="slide"><img src="../img/uni/33.png" /></div>
+      <div class="slide"><img src="../img/uni/34.png" /></div>
     </section>
     <!-- End feature Area -->
     <!-- Set up your HTML -->
@@ -788,268 +752,7 @@ if (isset($_COOKIE[$cookie_name])) {
         </div>
       </div>
     </section>
-    <!-- End popular-course Area -->
-    <!-- Start blog Area -->
-    <!-- <section class="blog-area section-gap" id="blog">
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="menu-content pb-70 col-lg-8">
-            <div class="title text-center">
-              <h1 class="mb-10">Latest posts from our Blog</h1>
-              <p>In the history of modern astronomy there is.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6 single-blog">
-            <div class="thumb">
-              <img class="img-fluid" src="img/b1.jpg" alt="" />
-            </div>
-            <p class="meta">25 April, 2018 | By <a href="#">Mark Wiens</a></p>
-            <a href="blog-single.php">
-              <h5>Addiction When Gambling Becomes A Problem</h5>
-            </a>
-            <p>
-              Computers have become ubiquitous in almost every facet of our
-              lives. At work, desk jockeys spend hours in front of their.
-            </p>
-            <a
-              href="#"
-              class="details-btn d-flex justify-content-center align-items-center"
-              ><span class="details">Details</span
-              ><span class="lnr lnr-arrow-right"></span
-            ></a>
-          </div>
-          <div class="col-lg-3 col-md-6 single-blog">
-            <div class="thumb">
-              <img class="img-fluid" src="img/b2.jpg" alt="" />
-            </div>
-            <p class="meta">25 April, 2018 | By <a href="#">Mark Wiens</a></p>
-            <a href="blog-single.php">
-              <h5>Computer Hardware Desktops And Notebooks</h5>
-            </a>
-            <p>
-              Ah, the technical interview. Nothing like it. Not only does it
-              cause anxiety, but it causes anxiety for several different
-              reasons.
-            </p>
-            <a
-              href="#"
-              class="details-btn d-flex justify-content-center align-items-center"
-              ><span class="details">Details</span
-              ><span class="lnr lnr-arrow-right"></span
-            ></a>
-          </div>
-          <div class="col-lg-3 col-md-6 single-blog">
-            <div class="thumb">
-              <img class="img-fluid" src="img/b3.jpg" alt="" />
-            </div>
-            <p class="meta">25 April, 2018 | By <a href="#">Mark Wiens</a></p>
-            <a href="blog-single.php">
-              <h5>Make Myspace Your Best Designed Space</h5>
-            </a>
-            <p>
-              Plantronics with its GN Netcom wireless headset creates the next
-              generation of wireless headset and other products such as
-              wireless.
-            </p>
-            <a
-              href="#"
-              class="details-btn d-flex justify-content-center align-items-center"
-              ><span class="details">Details</span
-              ><span class="lnr lnr-arrow-right"></span
-            ></a>
-          </div>
-          <div class="col-lg-3 col-md-6 single-blog">
-            <div class="thumb">
-              <img class="img-fluid" src="img/b4.jpg" alt="" />
-            </div>
-            <p class="meta">25 April, 2018 | By <a href="#">Mark Wiens</a></p>
-            <a href="blog-single.php">
-              <h5>Video Games Playing With Imagination</h5>
-            </a>
-            <p>
-              About 64% of all on-line teens say that do things online that they
-              wouldn’t want their parents to know about. 11% of all adult
-              internet
-            </p>
-            <a
-              href="#"
-              class="details-btn d-flex justify-content-center align-items-center"
-              ><span class="details">Details</span
-              ><span class="lnr lnr-arrow-right"></span
-            ></a>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- End blog Area -->
-    <!-- Start search-course Area -->
-    <!-- <section
-      class="search-course-area relative"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-    >
-      <div class="overlay overlay-bg"></div>
-      <div class="container" style="padding: 3rem;">
-        <div class="row justify-content-between align-items-center">
-          <div class="col-lg-12 col-md-6 search-course-left">
-            <h1 class="text-white">
-              Get reduced fee <br />
-              during this Summer!
-            </h1>
-            <p>
-              inappropriate behavior is often laughed off as “boys will be
-              boys,” women face higher conduct standards especially in the
-              workplace. That’s why it’s crucial that, as women, our behavior on
-              the job is beyond reproach.
-            </p>
-            <div class="row details-content">
-              <div class="col single-detials">
-                <span class="lnr lnr-graduation-hat"></span>
-                <a href="#"><h4>Expert Instructors</h4></a>
-                <p>
-                  Usage of the Internet is becoming more common due to rapid
-                  advancement of technology and power.
-                </p>
-              </div>
-              <div class="col single-detials">
-                <span class="lnr lnr-license"></span>
-                <a href="#"><h4>Certification</h4></a>
-                <p>
-                  Usage of the Internet is becoming more common due to rapid
-                  advancement of technology and power.
-                </p>
-              </div>
-              <div class="col single-detials">
-                <span class="lnr lnr-license"></span>
-                <a href="#"><h4>Certification</h4></a>
-                <p>
-                  Usage of the Internet is becoming more common due to rapid
-                  advancement of technology and power.
-                </p>
-              </div>
-              <div class="col single-detials">
-                <span class="lnr lnr-license"></span>
-                <a href="#"><h4>Certification</h4></a>
-                <p>
-                  Usage of the Internet is becoming more common due to rapid
-                  advancement of technology and power.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- End search-course Area -->
-
-    <!-- Start upcoming-event Area -->
-    <!-- <section
-      class="upcoming-event-area section-gap"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-    >
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="menu-content pb-70 col-lg-8">
-            <div class="title text-center">
-              <h1 class="mb-10">Upcoming Events of our Institute</h1>
-              <p>If you are a serious astronomy fanatic like a lot of us</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="active-upcoming-event-carusel">
-            <div class="single-carusel row align-items-center">
-              <div class="col-12 col-md-6 thumb">
-                <img class="img-fluid" src="img/p1.jpg" alt="" />
-              </div>
-              <div class="detials col-12 col-md-6">
-                <p>25th February, 2018</p>
-                <a href="#"><h4>The Universe Through A Child S Eyes</h4></a>
-                <p>
-                  For most of us, the idea of astronomy is something we directly
-                  connect to “stargazing”, telescopes and seeing magnificent
-                  displays in the heavens.
-                </p>
-              </div>
-            </div>
-            <div class="single-carusel row align-items-center">
-              <div class="col-12 col-md-6 thumb">
-                <img class="img-fluid" src="img/e2.jpg" alt="" />
-              </div>
-              <div class="detials col-12 col-md-6">
-                <p>25th February, 2018</p>
-                <a href="#"><h4>The Universe Through A Child S Eyes</h4></a>
-                <p>
-                  For most of us, the idea of astronomy is something we directly
-                  connect to “stargazing”, telescopes and seeing magnificent
-                  displays in the heavens.
-                </p>
-              </div>
-            </div>
-            <div class="single-carusel row align-items-center">
-              <div class="col-12 col-md-6 thumb">
-                <img class="img-fluid" src="img/e1.jpg" alt="" />
-              </div>
-              <div class="detials col-12 col-md-6">
-                <p>25th February, 2018</p>
-                <a href="#"><h4>The Universe Through A Child S Eyes</h4></a>
-                <p>
-                  For most of us, the idea of astronomy is something we directly
-                  connect to “stargazing”, telescopes and seeing magnificent
-                  displays in the heavens.
-                </p>
-              </div>
-            </div>
-            <div class="single-carusel row align-items-center">
-              <div class="col-12 col-md-6 thumb">
-                <img class="img-fluid" src="img/e1.jpg" alt="" />
-              </div>
-              <div class="detials col-12 col-md-6">
-                <p>25th February, 2018</p>
-                <a href="#"><h4>The Universe Through A Child S Eyes</h4></a>
-                <p>
-                  For most of us, the idea of astronomy is something we directly
-                  connect to “stargazing”, telescopes and seeing magnificent
-                  displays in the heavens.
-                </p>
-              </div>
-            </div>
-            <div class="single-carusel row align-items-center">
-              <div class="col-12 col-md-6 thumb">
-                <img class="img-fluid" src="img/e2.jpg" alt="" />
-              </div>
-              <div class="detials col-12 col-md-6">
-                <p>25th February, 2018</p>
-                <a href="#"><h4>The Universe Through A Child S Eyes</h4></a>
-                <p>
-                  For most of us, the idea of astronomy is something we directly
-                  connect to “stargazing”, telescopes and seeing magnificent
-                  displays in the heavens.
-                </p>
-              </div>
-            </div>
-            <div class="single-carusel row align-items-center">
-              <div class="col-12 col-md-6 thumb">
-                <img class="img-fluid" src="img/e1.jpg" alt="" />
-              </div>
-              <div class="detials col-12 col-md-6">
-                <p>25th February, 2018</p>
-                <a href="#"><h4>The Universe Through A Child S Eyes</h4></a>
-                <p>
-                  For most of us, the idea of astronomy is something we directly
-                  connect to “stargazing”, telescopes and seeing magnificent
-                  displays in the heavens.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- End upcoming-event Area -->
+  
 
     <!-- Start review Area -->
     <section
@@ -1066,92 +769,6 @@ if (isset($_COOKIE[$cookie_name])) {
           <div class="active-review-carusel">
             <div class="single-review item">
               <div class="title justify-content-start d-flex">
-                <a href="#"><h4>Deneth Silva</h4></a>
-                <div class="star">
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                </div>
-              </div>
-              <p>
-                I came to this institution as student right after my A
-                levels.After considering my qualifications and ectra curricular
-                activities I was given 100% scholarship to study in the Biggest
-                University in China , Zhengzhou University. The well educated
-                consultants guided me in both the university application and the
-                VISA application. I got a 100% scholarship to study software
-                engineering.I would encourage you all to visit there and
-                experience the most valuable service that you can ever receive
-                to build up your future. Once again I thank the GES
-                international for showing and helping me to access my future
-                path and I wish them all the very best in there future
-                endeavours.
-              </p>
-            </div>
-            <div class="single-review item">
-              <div class="title justify-content-start d-flex">
-                <a href="#"><h4>Richard Samarawickrama</h4></a>
-                <div class="star">
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                </div>
-              </div>
-              <p>
-                Joining hands with GES has no doubt been one of the best
-                decisions I've made in my life. GES is very customer friendly,
-                convenient as well as a 100% POSITIVE result oriented work
-                force. So many opportunities have opened up for me with their
-                consultancy and guidance. My English skills improved and I was
-                able to get an overall score of 8 out of 9 for my IELTS
-                Examination, with which I will soon migrate to a Western
-                country. None of this would have been possible without GES, so
-                with 200% confidence I recommend anyone with plans to go abroad
-                to join hands with GES.
-              </p>
-            </div>
-            <div class="single-review item">
-              <div class="title justify-content-start d-flex">
-                <a href="#"><h4>Yasantha Subodhana</h4></a>
-                <div class="star">
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                </div>
-              </div>
-              <p>
-                I came to the GES International in January. I had a chance to
-                learn English in that month. After that I started the process to
-                go to Australia .I was able to finish that within a month and
-                also i was able to have my visa within two months. Actually I am
-                very happy about that. I am to go to Australia this April . I
-                got this chance through GES International . Therefore I say
-                thanks to GES International
-              </p>
-            </div>
-            <div class="single-review item">
-              <div class="title justify-content-start d-flex">
-                <a href="#"><h4>Avishka Nimsara</h4></a>
-                <div class="star">
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                </div>
-              </div>
-              <p>
-                Good place to improve English language.
-              </p>
-            </div>
-            <div class="single-review item">
-              <div class="title justify-content-start d-flex">
                 <a href="#"><h4>Mohomed Rifan</h4></a>
                 <div class="star">
                   <span class="fa fa-star checked"></span>
@@ -1162,8 +779,7 @@ if (isset($_COOKIE[$cookie_name])) {
                 </div>
               </div>
               <p>
-                Well planned and organized place. 100% accurate information.
-                Trustworthy.
+              Well planned and organized place. 100% accurate information. Trustworthy.
               </p>
             </div>
             <div class="single-review item">
@@ -1178,7 +794,39 @@ if (isset($_COOKIE[$cookie_name])) {
                 </div>
               </div>
               <p>
-                The best study centre in the Sri Lanka
+  
+              The best study centre in the Sri Lanka
+
+              </p>
+            </div>
+            <div class="single-review item">
+              <div class="title justify-content-start d-flex">
+                <a href="#"><h4>Deneth Silva</h4></a>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+              </div>
+              <p>
+              I came to this institution as student right after my A levels. After considering my qualifications and extracurricular activities I was given 100% scholarship to study in the Biggest University in China, Zhengzhou University. The well educated consultants guided me in both the university application and the VISA application. I got a 100% scholarship to study software engineering. I would encourage you all to visit there and experience the most valuable service that you can ever receive to build up your future. Once again I thank the GIHE for showing and helping me to access my future path and I wish them all the very best in their future endeavors.
+              </p>
+            </div>
+            <div class="single-review item">
+              <div class="title justify-content-start d-flex">
+                <a href="#"><h4>Richard Samarawickrama</h4></a>
+                <div class="star">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+              </div>
+              <p>
+              Joining hands with GIHE has no doubt been one of the best decisions I've made in my life. GIHE is very customer friendly, convenient as well as a 100% POSITIVE result oriented work force. So many opportunities have opened up for me with their consultancy and guidance. My English skills improved and I was able to get an overall score of 8 out of 9 for my IELTS Examination, with which I will soon migrate to a Western country. None of this would have been possible without GIHE, so with 200% confidence I recommend anyone with plans to go abroad to join hands with GIHE.
               </p>
             </div>
           </div>
