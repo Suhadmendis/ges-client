@@ -71,7 +71,7 @@ function CheckUsers()
         var val = xmlHttp.responseText;
     
         if (val == "ok") {
-            location.href = "home.php";
+            location.href = "index.php";
         } else if (val == "Invalied Connection") {
             alert(xmlHttp.responseText);
         } else {
@@ -89,7 +89,7 @@ function showPostion(position) {
  
 function logout()
 {
-    //alert("ok");
+    
 
     xmlHttp = GetXmlHttpObject();
     if (xmlHttp == null)
@@ -98,10 +98,10 @@ function logout()
         return;
     }
 
-    var url = "CheckUsers.php";
+    var url = "../CheckUsers.php";
 
     url = url + "?Command=" + "logout";
-
+    // alert(url);
     xmlHttp.onreadystatechange = logout_state_Changed;
     xmlHttp.open("GET", url, true);
     xmlHttp.send(null);
@@ -113,7 +113,8 @@ function logout_state_Changed()
     var XMLAddress1;
     if (xmlHttp.readyState == 4 || xmlHttp.readyState == "complete")
     {
-        location.href = "index.php";
+        // alert("ok");
+        location.href = "../index.php";
     }
 
 }

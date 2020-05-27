@@ -11,18 +11,19 @@ if (isset($_COOKIE[$cookie_name])) {
         exit();
     }
 }
-header('Location: ' . "views/home.php");
-exit();
+// header('Location: ' . "views/home.php");
+// exit();
 ?> 
-<!DOCTYPE html>
+
+<!-- <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Login Page</title>
-        <!-- Bootstrap core CSS -->
+        
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- Font Awesome -->
+       
         <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-        <!-- Ionicons -->
+      
         <link  href="css/login.css" rel="stylesheet">    
 
         <link rel="stylesheet" href="css/ionicons/css/ionicons.min.css">
@@ -60,12 +61,12 @@ exit();
         <div class="container">
             <div id="login-form" class="form-signin form-group mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                 <div>
-                    <!--<img style="align-content: center" class="img-responsive" src="img/Mas_Holdings_Logo.png">-->
+                   
                     <div class="form-group">
                         <h1 id="topic"><center>GES Education Group</center></h1>
                     </div>
                 </div>
-                <!--<h3><center>MAS HOLDINGS</center></h3>-->
+              
                 <div class="form-group"></div>
 
                 <strong id="lab">Username:</strong>
@@ -104,4 +105,4 @@ exit();
 
 
 <script src="js/jquery-2.1.0.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script> -->

@@ -1,4 +1,7 @@
+<?php
 
+session_start();
+?>
 
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
@@ -332,6 +335,7 @@
     </style>
   </head>
   <body>
+  
     <?php include 'header.php' ?>
     <!-- #header -->
 
@@ -873,7 +877,7 @@
     <script src="res/js/mail-script.js"></script>
     <script src="res/js/main.js"></script>
 
-    <script src="js/user.js"></script>
+    <script src="../js/user.js"></script>
 
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

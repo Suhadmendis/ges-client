@@ -7,7 +7,7 @@ $Command = "";
 if (isset($_GET['Command'])) {
 
     $Command = $_GET["Command"];
-    include './DB_connector.php';
+    include 'connection_sql.php';
 }
 
 
