@@ -29,7 +29,7 @@
 
         <form action="">
           <div class="stu-form-group">
-            <input type="text" placeholder="User Name" id="txtUserName" class="stu-feild" />
+            <input type="text" placeholder="Email Address" id="txtUserName" class="stu-feild" />
           </div>
           <div class="stu-form-group">
             <input type="password" placeholder="Password" id="txtPassword" class="stu-feild" />

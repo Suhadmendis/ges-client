@@ -19,7 +19,7 @@ if ($Command == "CheckUsers") {
     $Password = $_GET["Password"];
 //    $ResponseXML .= "<action><![CDATA[" . $_GET['action'] . "]]></action>";
 //    $ResponseXML .= "<form><![CDATA[" . $_GET['form'] . "]]></form>";
-    $sql = "SELECT * FROM user_mast WHERE user_name =  '" . $UserName . "' and password =  '" . $Password . "' ";
+    $sql = "SELECT * FROM m_registration WHERE email =  '" . $UserName . "' and password =  '" . $Password . "' ";
     $result = $conn->query($sql);
 
     if ($row = $result->fetch()) {
@@ -30,8 +30,8 @@ if ($Command == "CheckUsers") {
         session_regenerate_id();
         $ip = $_SERVER['REMOTE_ADDR'];
         $_SESSION['UserName'] = $UserName;
-        $_SESSION['department'] = $row["user_depart"];
-        $_SESSION['User_Type'] = $row['user_type'];
+        // $_SESSION['department'] = $row["user_depart"];
+        // $_SESSION['User_Type'] = $row['user_type'];
         $_SESSION['CURRENT_USER'] = $UserName;
         /*
           $_SESSION["CURRENT_USER"] = $UserName;
@@ -87,16 +87,13 @@ if ($Command == "CheckUsers") {
 
 if ($_GET["Command"] == "save_inv") {
 
-
-    $sql = "select * from user_mast where user_name='" . $_GET["user_name"] . "'";
+    $sql = "select * from m_registration where email='" . $_GET["email_add"] . "'";
     $result = $conn->query($sql);
     if ($row1 = $result->fetch()) {
         echo "Already Registered";
     } else {
-        $sql = "insert into user_mast(user_name, password) values ('" . $_GET["user_name"] . "', '" . $_GET["password"] . "')";
-//        echo $sql;
+        $sql = "insert into m_registration(first_name, last_name, email, password) values ('" . $_GET["first_name"] . "','" . $_GET["last_name"] . "','" . $_GET["email_add"] . "', '" . $_GET["password"] . "')";
         $result = $conn->query($sql);
-//        echo "Saved";
 
         date_default_timezone_set('Asia/Colombo');
 
@@ -112,17 +109,12 @@ if ($_GET["Command"] == "save_inv") {
         // $mail->Password = "autoemail@123";
 
 
-        $sql = "select * from user_mast where user_name='" . $_GET["user_name"] . "'";
-        $result = $conn->query($sql);
-//        echo $sql;
-        if ($row = $result->fetch()) {
-
-            $uemail = $row["U_email"];
-            $remail = $row["R_email"];
-
-            // $mail->setFrom('autoemail@infodatasl.com', 'Kot System');
-            // $mail->addAddress($uemail, 'hhh');
-        }
+        // $sql = "select * from m_registration where email='" . $_GET["email_add"] . "'";
+        // $result = $conn->query($sql);
+        // if ($row = $result->fetch()) {
+        //     $uemail = $row["U_email"];
+        //     $remail = $row["R_email"];            
+        // }
 
         // $table = "";
         // $table .= "<table style = 'width: 660px;' class = 'table1'>

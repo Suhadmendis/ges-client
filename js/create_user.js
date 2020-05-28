@@ -136,6 +136,8 @@ function save_inv()
             return;
         }
 
+
+
         // if (document.getElementById('txtUserName').value == "") {
         //     document.getElementById('msg_box').innerHTML = "<div class='alert alert-warning' role='alert'><span class='center-block'>User Name  Not Entered</span></div>";
         //     return false;
@@ -158,21 +160,38 @@ function save_inv()
         // }
 
         
-        // if (document.getElementById('txtPassword').value != document.getElementById('txtPassword1').value) {
-        //     document.getElementById("txterror").innerHTML = "Password doesn't Match";
-        //     return false;
-        // }
+        if (document.getElementById('first_name').value == "") {
+            // document.getElementById("txterror").innerHTML = "Password doesn't Match";
+            alert("Please Enter the First Name");
+            return false;
+        }
+
+        if (document.getElementById('last_name').value == "") {
+            // document.getElementById("txterror").innerHTML = "Password doesn't Match";
+            alert("Please Enter the Last Name");
+            return false;
+        }
+
+        if (document.getElementById('email_add').value == "") {
+            // document.getElementById("txterror").innerHTML = "Password doesn't Match";
+            alert("Please Enter the Email Address");
+            return false;
+        }
+
+       
+
+        if (document.getElementById('txtPassword').value != document.getElementById('txtPassword1').value) {
+            // document.getElementById("txterror").innerHTML = "Password doesn't Match";
+            alert("Password doesn't Match");
+            return false;
+        }
 
         var url = "CheckUsers.php";
         url = url + "?Command=" + "save_inv";
-        url = url + "&user_name=" + document.getElementById("txtUserName").value;
-    //    url = url + "&user_depart=" + document.getElementById("user_depart").value;
+        url = url + "&first_name=" + document.getElementById("first_name").value;
+        url = url + "&last_name=" + document.getElementById("last_name").value;
+        url = url + "&email_add=" + document.getElementById("email_add").value;
         url = url + "&password=" + document.getElementById("txtPassword").value;
-
-
-        // url = url + "&user_type=" + document.getElementById("user_type").value;
-        // url = url + "&U_email=" + document.getElementById("umail").value;
-        // url = url + "&R_email=" + document.getElementById("rmail").value;
 
         xmlHttp.onreadystatechange = passsuppresult_save_inv;
         xmlHttp.open("GET", url, true);
@@ -240,7 +259,7 @@ function passsuppresult_save_inv()
         if (xmlHttp.responseText == "LOG") {
 //            document.getElementById('msg_box').innerHTML = "<div class='alert alert-success' role='alert'><span class='center-block'>Saved</span></div>";
             // document.getElementById("txterror").innerHTML = xmlHttp.responseText;
-            location.href = "home.php";
+            location.href = "index.php";
             // newent();
 
 //            setTimeout("location.reload(true);", 500);

@@ -25,7 +25,13 @@
         <p></p>
         <form action="">
           <div class="stu-form-group">
-            <input type="text" placeholder="Username" id="txtUserName" class="stu-feild" />
+            <input type="text" placeholder="First Name" id="first_name" class="stu-feild" />
+          </div>
+          <div class="stu-form-group">
+            <input type="text" placeholder="Last Name" id="last_name" class="stu-feild" />
+          </div>
+          <div class="stu-form-group">
+            <input type="text" placeholder="Email Address" id="email_add" class="stu-feild" />
           </div>
           <div class="stu-form-group">
             <input type="password" placeholder="Password" id="txtPassword" class="stu-feild" />
