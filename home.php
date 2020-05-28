@@ -847,58 +847,7 @@ session_start(); ?>
       </div>
     </section>
 
-    <!-- <section
-      class="popular-course-area section-gap"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="active-popular-carusel">
-            <div class="single-popular-carusel">
-              <div class="thumb-wrap relative">
-                <div class="thumb relative">
-                  <div class="overlay overlay-bg"></div>
-                  <img class="img-fluid" src="img/p1.png" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="single-popular-carusel">
-              <div class="thumb-wrap relative">
-                <div class="thumb relative">
-                  <div class="overlay overlay-bg"></div>
-                  <img class="img-fluid" src="img/p2.png" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="single-popular-carusel">
-              <div class="thumb-wrap relative">
-                <div class="thumb relative">
-                  <div class="overlay overlay-bg"></div>
-                  <img class="img-fluid" src="img/p3.png" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="single-popular-carusel">
-              <div class="thumb-wrap relative">
-                <div class="thumb relative">
-                  <div class="overlay overlay-bg"></div>
-                  <img class="img-fluid" src="img/p4.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="single-popular-carusel">
-              <div class="thumb-wrap relative">
-                <div class="thumb relative">
-                  <div class="overlay overlay-bg"></div>
-                  <img class="img-fluid" src="img/p5.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
+
 
     <section class="customer-logos slider">
       <div class="slide"><img src="img/uni/1.png" /></div>

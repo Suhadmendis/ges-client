@@ -42,13 +42,13 @@ function chk_cookie($UserName) {
 
 
 
-        $cookie_name = "user";
+        $cookie_name = "giheuser";
         $cookie_value = $UserName;
 
         $token = substr(hash('sha512', mt_rand() . microtime()), 0, 50);
         $extime = time() + 160000000;
         $domain = $_SERVER['HTTP_HOST'];
-        setcookie('user', $cookie_value, $extime, "/", $domain);
+        setcookie('giheuser', $cookie_value, $extime, "/", $domain);
 
         //$ResponseXML .= "<stat><![CDATA[" . $action . "]]></stat>";
         $time = date("H:i:s");

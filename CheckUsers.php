@@ -53,7 +53,7 @@ if ($Command == "CheckUsers") {
          */
 
         $action = "ok";
-        $cookie_name = "user";
+        $cookie_name = "giheuser";
         $cookie_value = $UserName;
         //setcookie($cookie_name, $cookie_value, time() + (43200)); // 86400 = 1 day
 
@@ -65,7 +65,7 @@ if ($Command == "CheckUsers") {
 
 // set cookie
 
-        setcookie('user', $cookie_value, $extime, "/", $domain);
+        setcookie('giheuser', $cookie_value, $extime, "/", $domain);
 
 
         $ResponseXML .= "<stat><![CDATA[" . $action . "]]></stat>";
@@ -180,7 +180,7 @@ if ($Command == "logout") {
 
     $today = date('Y-m-d');
     $domain = $_SERVER['HTTP_HOST'];
-    setcookie('user', "", 1, "/", $domain);
+    setcookie('giheuser', "", 1, "/", $domain);
 
 
 
