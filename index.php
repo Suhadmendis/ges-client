@@ -72,8 +72,6 @@ exit();
 
                 <input class="form-control"  name="UserName" type="text" id="txtUserName" onkeypress="keyset('txtPassword', event)"  />
 
-
-
                 <strong id="lab">Password:</strong>
 
                 <input class="form-control" name="Password" type="password" id="txtPassword" onkeypress="keyset('lbtn', event)"/>

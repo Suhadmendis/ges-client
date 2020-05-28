@@ -30,33 +30,29 @@
               </ul>
             </div>
             <div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
-            <a href="http://webmail.gihe.lk/" target="blank"
-                ><span class="lnr lnr-phone-handset"></span>
-                <span class="text">Login</span></a
-              >
               <a href="tel:+953 012 3654 896"
                 ><span class="lnr lnr-phone-handset"></span>
                 <span class="text">+94 764849994</span></a
               >
-              <a href="mailto:info@gihe.lk"
+              <a href="mailto:info@gesedu.lk"
                 ><span class="lnr lnr-envelope"></span>
-                <span class="text">info@gihe.lk</span></a
+                <span class="text">info@gesedu.lk</span></a
               >
 
-              <?php //if (isset($_SESSION['UserName'])) { ?>
-                      <!-- <a href=""
+              <?php if (isset($_SESSION['UserName'])) { ?>
+                      <a href=""
                         ><span class="lnr lnr-envelope"></span>
                         <span class="text">
-                         <?php  // echo $_SESSION['UserName'];  ?>
+                         <?php   echo $_SESSION['UserName'];  ?>
                         </span></a
                       >
 
                       <a href="" onclick="logout();" 
                         ><span class="lnr lnr-envelope"></span>
                         <span class="text">Logout</span></a
-                      > -->
-                  <?php //}else{ ?>
-                      <!-- <a href="login_form.php"
+                      >
+                  <?php }else{ ?>
+                      <a href="login_form.php"
                         ><span class="lnr lnr-envelope"></span>
                         <span class="text">Sign In</span></a
                       >
@@ -65,8 +61,8 @@
                         ><span class="lnr lnr-envelope"></span>
                         <span class="text">Sign Up</span></a
                       >
-                    -->
-                  <?php //} ?>
+                   
+                  <?php } ?>
 
 
             </div>
