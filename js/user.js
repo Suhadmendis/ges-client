@@ -89,7 +89,7 @@ function showPostion(position) {
  
 function logout()
 {
-    //alert("ok");
+    // alert("ok");
 
     xmlHttp = GetXmlHttpObject();
     if (xmlHttp == null)

@@ -383,7 +383,7 @@ session_start(); ?>
                         </span></a
                       >
 
-                      <a href="" onclick="logout();" 
+                      <a style="color: white;" onclick="logout();" 
                         ><span class="lnr lnr-envelope"></span>
                         <span class="text">Logout</span></a
                       >
