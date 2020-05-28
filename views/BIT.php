@@ -1,8 +1,119 @@
 
-  <body>
   <?php include '../header.php' ?>
     <!-- #header -->
+<style>
+    .entry img {
+    width: 100%;
+}
+.entry ul {
+    list-style: disc;
+}
+.diploma-bit-container img {
+    width: 100%;
+}
 
+.higher-dip-bit img {
+    width: 100%;
+}
+
+.final-year img {
+    width: 100%;
+}
+
+.fee-bit img {
+    width: 100%;
+}
+
+.faculty-wrap {
+
+grid-template-columns: 350px 1fr;
+
+}
+input.text-input {
+width: 80%;
+padding: 0 1rem;
+}
+.form-group-input label {
+font-weight: 500;
+margin-top: 1rem;
+}
+textarea.textrea-input {
+width: 80%;
+padding: 1rem;
+}
+
+.submit-form button {
+border: none;
+height: 40px;
+width: 80%;
+background: rgba(32, 46, 103, 0.9);
+color: #fff;
+margin-top: 1rem;
+cursor:pointer
+}
+.submit-form button:hover {
+border: none;
+height: 40px;
+width: 80%;
+background: rgba(62, 75, 130, 0.9);
+color: #fff;
+margin-top: 1rem;
+}
+
+.form-group-input select {
+    width: 80%;
+    height: 30px;
+}
+
+.bit-logo img {
+    width: 100%;
+}
+.why-bit ul {
+    list-style: disc;
+}
+.bit-overview-container {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    margin-bottom: 1rem;
+}
+
+span.para-bold {
+    font-weight: 700;
+    color: #5f5d5d;
+}
+.diploma-bit-container p,
+.higher-dip-bit p,
+.final-year p {
+    margin-top: 3rem;
+    padding-left: 10px;
+}
+
+.quali-disc ul {
+    list-style: disc;
+    line-height: 2.5;
+    font-weight: 500;
+}
+@media only screen and (max-width: 900px){
+
+  .bit-overview-container {
+
+    grid-template-columns: 1fr;
+
+}
+.faculty-wrap {
+
+grid-template-columns:  1fr;
+
+}
+}
+@media only screen and (max-width: 900px){
+    .faculty-wrap {
+
+grid-template-columns:  1fr;
+
+}
+}
+</style>
     <!-- start banner Area -->
     <section class="banner-area relative about-banner" id="home">
       <div class="overlay overlay-bg"></div>
@@ -10,84 +121,203 @@
         <div class="row d-flex align-items-center justify-content-center">
           <div class="about-content col-lg-12">
             <h1 class="text-white">
-              School of Professional Studies
+            Bachelor of Information Technology 
             </h1>
             <p class="text-white link-nav">
               <a href="index.html">Home </a>
               <span class="lnr lnr-arrow-right"></span>
-              <a href="contact.html">School of Professional Studies </a>
+              <a href="BIT.phpl">Bachelor of Information Technology  </a>
             </p>
           </div>
         </div>
       </div>
     </section>
     <!-- End banner Area -->
-    <div class="awrding-main-des">
-      <h3>
-      At GIHE School of Professional Studies we offer students industry specified specialized programs to gain and enhance the skills and support they need to move their careers and industries forward. We offer high quality, internationally recognized programs in a dynamic, supportive learning environment. 
 
-      </h3>
-    </div>
     <!-- End contact-page Area -->
     <div class="section-single-faculty-wrapper">
       <div class="faculty-wrap">
         <div class="first-faculty-section">
           <div class="faculty-card">
-            <div class="faculty-title">School of Professional Studies</div>
+            <div class="faculty-title">BIT from University of Colombo </div>
             <div style="display:grid">
               <button
                 class="w3-bar-item w3-button tablink w3-red"
-                onclick="openCity(event,'if')"
+                onclick="openCity(event,'co')"
               >
-           Education & Training
+              Course Overview
               </button>
               <button
                 class="w3-bar-item w3-button tablink "
-                onclick="openCity(event,'pm')"
+                onclick="openCity(event,'er')"
               >
-              Project Management
+              Entry Requirements & Progression
               </button>
               <button
                 class="w3-bar-item w3-button tablink"
-                onclick="openCity(event,'ep')"
+                onclick="openCity(event,'pc')"
               >
-              Entrepreneurship
+              Program Curriculum & Assessment Method
+              </button>
+              <button
+                class="w3-bar-item w3-button tablink"
+                onclick="openCity(event,'fs')"
+              >
+              Fee Structure
+              </button>
+              <button
+                class="w3-bar-item w3-button tablink"
+                onclick="openCity(event,'wb')"
+              >
+              Why BIT @ GIHE Campus?
+              </button>
+              <button
+                class="w3-bar-item w3-button tablink"
+                onclick="openCity(event,'eq')"
+              >
+              Inquiry
               </button>
             </div>
           </div>
         </div>
         <div class="faculty-des">
-          <div id="if" class="w3-container w3-border city">
-            <li class="link-it">
-              <a href="#">	HND in Education and Training (Level 5)</a>
-            </li>
-            <li class="link-it">
-              <a href="#">Diploma in Education and Training (Level 6)</a>
-            </li>
-            <li class="link-it">
-              <a href="#"
-                >Postgraduate Diploma in Education and Training (Level 7)</a
-              >
-            </li>
-           
+          <div id="co" class="w3-container w3-border city">
+
+           <div class="bit-overview-container">
+               <div class="bit-logo">
+               <img src="../img/bit-logo.png" alt="">
+               </div>
+              
+
+               <div class="bit-des">
+                   <p>BIT-Bachelor of Information Technology is one of the most sought after yet cost-effective IT Degree program in Sri Lanka, conducted by the University of Colombo School of Computing (UCSC) since the year 2000. The UCSC conducts examinations leading to the first-ever External Degree in Information Technology (IT) in Sri Lanka. Many of the students who have completed the Degree or the Higher Diploma have been employed by the country’s top IT Companies in lucrative employment.  </p>
+               </div>
+           </div>
+
+           <div class="why-bit">
+               <ul>
+                   <li>First ever IT Degree (External) in Sri Lanka, started in year 2000.</li>
+                   <li>Degree offered by the University of Colombo.</li>
+                   <li>Multiple exit points.<br>
+                        <b>Diploma in IT (Year 01)</b><br>
+                        <b>Higher Diploma in IT (Year 02)</b><br>
+                        <b>BIT Degree (Year 03)</b></li>
+                   <li>Curriculum is aligned with the IEEE / ACM International guidelines. </li>
+                   <li>More than <b>7500</b> Diploma holders, <b>3500</b> Higher Diploma Holders, <b>2000</b> Degree Holders.</li>
+
+               </ul>
+           </div>
+          </div>
+          <div id="er" class="w3-container w3-border city" style="display:none">
+
+
+           <div class="entry">
+               <ul>
+                   <li>G.C.E. O/L 06 passes with 03 credits including Mathematics and English. &</li>
+                   <li>G.C.E. A/L 03 Passes in one sitting OR FIT</li>
+               </ul>
+               <img src="../img/bit-path.jpg" alt="">
+           </div>
+          </div>
+          <div id="pc" class="w3-container w3-border city" style="display:none">
+
+            <div class="asses-container">
+                <p><span class="para-bold">Bachelor of Information Technology (BIT)</span> Degree programme new course structure (With effect from Year 2020).
+            A student must select a minimum of 30 GPA credits from each level including all compulsory courses. All courses in Level I and Level II are compulsory and each of them has online assignments. All Enhancement courses in Level I, II and III consist of two compulsory components, and a student will need to pass <span class="para-bold">both online assessment AND the written examination paper at one sitting.</span>
+            EN courses are non-GPA. Therefore, the credit value of an EN course is not considered for GPA calculation.
+            </p>
+            </div>
+
+            <div class="diploma-bit-container">
+                <p><span class="para-bold">Diploma in Information Technology (Year 01)</span></p>
+                <img src="../img/diploma-bit.png" alt="">
+            </div>
+
+            <div class="higher-dip-bit">
+                <p><span class="para-bold">Higher Diploma in Information Technology (Year 02)</span></p>
+                <img src="../img/higher-dip.png" alt="">
+            </div>
+
+            <div class="final-year">
+                <p><span class="para-bold">Bachelor of Information Technology (Year 03)</span></p>
+                <img src="../img/final-year.png" alt="">
+            </div>
+
+            <p style="margin-left: 10px;color: #000;font-weight: 500;">*IT5106-Software Development Project is an 8 GPA Credit course and offered in both Level-III Semester 5 and 6 with 4 Credits for each semester.</p>
+          </div>
+          <div id="fs" class="w3-container w3-border city" style="display:none">
+
+          <div class="fee-bit">
+              <p><span class="para-bold">GIHE Campus Course Fee: - Rs.40, 000/- (Per Semester) </span><br>  
+              Instalments - Rs.13, 000.00 * (Rs.9, 000.00 * 03 payment)
+              </p>
+
+<img src="../img/fee.png" alt="">
+          </div>
 
           </div>
-          <div id="pm" class="w3-container w3-border city" style="display:none">
-            <li class="link-it">
-              <a href="#">Diploma in Project Management (Level 7)</a>
+          <div id="wb" class="w3-container w3-border city" style="display:none">
+
+          <div class="quali-disc">
+          <ul>
+            <li>
+              GIHE- Quotro is an authorised institute for BIT & FIT. 
             </li>
-
-           
-
+            <li>
+              Well Qualified and experienced lecture panel.
+            </li>
+            <li>
+              Comprehensive Study material focusing exams.
+            </li>
+            <li>
+              Special attention on you.
+            </li>
+            <li>
+              Hybrid Learning (Online + Classroom Sessions).
+            </li>
+            <li>
+              Qualify for work placements (Part-time or Full-time).
+            </li>
+            </ul>
+            </div>
           </div>
-          <div id="ep" class="w3-container w3-border city" style="display:none">
-            <li class="link-it">
-              <a href="#">Professional Diploma in Entrepreneurship </a>
-            </li>
-            <li class="link-it">
-              <a href="#">Advance Diploma in Entrepreneurship </a>
-            </li>
+          <div id="eq" class="w3-container w3-border city" style="display:none">
+          <div class="form-fit">
+                    <form action="">
 
+                    <div class="form-group-input">
+                        <label for="">Name</label><br>
+                        <input type="text" name="" id="" class="text-input">
+                    </div>
+                    <div class="form-group-input">
+                        <label for="">Contact No</label><br>
+                        <input type="text" name="" id="" class="text-input">
+                    </div>
+                    <div class="form-group-input">
+                        <label for="">Email</label><br>
+                        <input type="email" name="" id="" class="text-input">
+                    </div>
+                    <div class="form-group-input">
+                        <label for="">Semester</label><br>
+                        <select name="" id="">
+                          <option value="">Semester 01</option>
+                          <option value="">Semester 02</option>
+                          <option value="">Semester 03</option>
+                          <option value="">Semester 04</option>
+                          <option value="">Semester 05</option>
+                          <option value="">Semester 06</option>
+                        </select>
+                    </div>
+                    <div class="form-group-input">
+                        <label for="">Message </label><br>
+                        <textarea name="" id="" cols="30" rows="10" class="textrea-input"></textarea>
+                    </div>
+
+                    <div class="submit-form">
+                        <button>Submit</button>
+                    </div>
+                    </form>
+                </div>
           </div>
         </div>
       </div>
@@ -1069,6 +1299,7 @@
       .w3-button:hover {
         color: #000 !important;
         background-color: #ccc !important;
+        outline:none
       }
       .w3-transparent,
       .w3-hover-none:hover {

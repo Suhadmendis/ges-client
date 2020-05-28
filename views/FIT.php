@@ -2,7 +2,94 @@
   <body>
   <?php include '../header.php' ?>
     <!-- #header -->
+<style>
+    .entry img {
+    width: 100%;
+}
 
+.diploma-bit-container img {
+    width: 100%;
+}
+
+.higher-dip-bit img {
+    width: 100%;
+}
+
+.final-year img {
+    width: 100%;
+}
+
+.fee-bit img {
+    width: 100%;
+}
+
+.faculty-wrap {
+
+    grid-template-columns: 350px 1fr;
+
+}
+input.text-input {
+    width: 80%;
+    padding: 0 1rem;
+}
+.form-group-input label {
+    font-weight: 500;
+    margin-top: 1rem;
+}
+textarea.textrea-input {
+    width: 80%;
+    padding: 1rem;
+}
+
+.submit-form button {
+    border: none;
+    height: 40px;
+    width: 80%;
+    background: rgba(32, 46, 103, 0.9);
+    color: #fff;
+    margin-top: 1rem;
+    cursor:pointer
+}
+.submit-form button:hover {
+    border: none;
+    height: 40px;
+    width: 80%;
+    background: rgba(62, 75, 130, 0.9);
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.bit-overview-container {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    margin-bottom: 1rem;
+    grid-gap:1rem
+}
+.entry ul {
+    list-style: disc;
+}
+.bit-logo img {
+    width: 100%;
+}
+
+span.para-bold {
+    font-weight: 700;
+    color: #5f5d5d;
+}
+@media only screen and (max-width: 900px){
+    .faculty-wrap {
+
+grid-template-columns:  1fr;
+
+}
+
+.bit-overview-container {
+
+grid-template-columns: 1fr;
+
+}
+}
+</style>
     <!-- start banner Area -->
     <section class="banner-area relative about-banner" id="home">
       <div class="overlay overlay-bg"></div>
@@ -10,84 +97,158 @@
         <div class="row d-flex align-items-center justify-content-center">
           <div class="about-content col-lg-12">
             <h1 class="text-white">
-              School of Professional Studies
+            The Foundation in Information Technology (FIT) 
             </h1>
             <p class="text-white link-nav">
               <a href="index.html">Home </a>
               <span class="lnr lnr-arrow-right"></span>
-              <a href="contact.html">School of Professional Studies </a>
+              <a href="FIT.php">The Foundation in Information Technology (FIT)   </a>
             </p>
           </div>
         </div>
       </div>
     </section>
     <!-- End banner Area -->
-    <div class="awrding-main-des">
-      <h3>
-      At GIHE School of Professional Studies we offer students industry specified specialized programs to gain and enhance the skills and support they need to move their careers and industries forward. We offer high quality, internationally recognized programs in a dynamic, supportive learning environment. 
 
-      </h3>
-    </div>
     <!-- End contact-page Area -->
     <div class="section-single-faculty-wrapper">
       <div class="faculty-wrap">
         <div class="first-faculty-section">
           <div class="faculty-card">
-            <div class="faculty-title">School of Professional Studies</div>
+            <div class="faculty-title">BIT from University of Colombo </div>
             <div style="display:grid">
               <button
                 class="w3-bar-item w3-button tablink w3-red"
-                onclick="openCity(event,'if')"
+                onclick="openCity(event,'co')"
               >
-           Education & Training
+              Course Overview
               </button>
               <button
                 class="w3-bar-item w3-button tablink "
-                onclick="openCity(event,'pm')"
+                onclick="openCity(event,'er')"
               >
-              Project Management
+              Entry Requirements & Progression
               </button>
               <button
                 class="w3-bar-item w3-button tablink"
-                onclick="openCity(event,'ep')"
+                onclick="openCity(event,'pc')"
               >
-              Entrepreneurship
+              Program Curriculum & Assessment Method
+              </button>
+              <button
+                class="w3-bar-item w3-button tablink"
+                onclick="openCity(event,'fs')"
+              >
+              Fee Structure
+              </button>
+              <button
+                class="w3-bar-item w3-button tablink"
+                onclick="openCity(event,'wb')"
+              >
+              Why BIT @ GIHE Campus?
+              </button>
+              <button
+                class="w3-bar-item w3-button tablink"
+                onclick="openCity(event,'eq')"
+              >
+              Inquiry
               </button>
             </div>
           </div>
         </div>
         <div class="faculty-des">
-          <div id="if" class="w3-container w3-border city">
-            <li class="link-it">
-              <a href="#">	HND in Education and Training (Level 5)</a>
-            </li>
-            <li class="link-it">
-              <a href="#">Diploma in Education and Training (Level 6)</a>
-            </li>
-            <li class="link-it">
-              <a href="#"
-                >Postgraduate Diploma in Education and Training (Level 7)</a
-              >
-            </li>
-           
+          <div id="co" class="w3-container w3-border city">
+
+           <div class="bit-overview-container">
+               <div class="bit-logo">
+               <img src="../img/fit-logo.jpg" alt="">
+               </div>
+              
+
+               <div class="bit-des">
+                   <p>The Foundation in Information Technology (FIT) programme from University of Colombo aims at enhancing the literacy and competency in using basic computer applications together with analytical thinking and communicational skills required for school leavers. 
+
+FIT is pre-degree for students those who don`t possess A/L qualifications to enrol into the Bachelor of Information Technology (BIT) programme.
+</p>
+               </div>
+           </div>
 
           </div>
-          <div id="pm" class="w3-container w3-border city" style="display:none">
-            <li class="link-it">
-              <a href="#">Diploma in Project Management (Level 7)</a>
-            </li>
+          <div id="er" class="w3-container w3-border city" style="display:none">
 
-           
+
+           <div class="entry">
+               <ul>
+                   <li>G.C.E. O/L 06 passes with 03 credits including Mathematics and English.</li>
+
+               </ul>
+               <img src="../img/fit-path.png" alt="" style="width:30%;margin-top:2rem">
+           </div>
+          </div>
+          <div id="pc" class="w3-container w3-border city" style="display:none">
+
+
+
+            <div class="diploma-bit-container">
+                <p>03 Modules (effective from February 2020)</p>
+                <img src="../img/fit-modules.png" alt="">
+            </div>
+
+
+            <p>Students who pass all three e-Tests (03 Modules) will be qualified to register for the BIT degree programme However, these students will not receive the final FIT certificate until they successfully complete all FIT practical exams.</p>
+          </div>
+          <div id="fs" class="w3-container w3-border city" style="display:none">
+
+          <div class="fee-bit">
+              <p style="padding-left: 26px;"><span class="para-bold">GIHE Campus Course Fee: - Rs.30, 000/-  </span><br> 
+            Instalments - Rs.10, 000.00 + Rs.8, 000.00 + (Rs.6, 000.00 * 02 payment)
+
+            </p>
+
+<img src="../img/fit-fee.png" alt="">
+          </div>
 
           </div>
-          <div id="ep" class="w3-container w3-border city" style="display:none">
+          <div id="wb" class="w3-container w3-border city" style="display:none">
             <li class="link-it">
-              <a href="#">Professional Diploma in Entrepreneurship </a>
+              <a href="#">Well Qualified and experienced lecture panel.</a>
             </li>
             <li class="link-it">
-              <a href="#">Advance Diploma in Entrepreneurship </a>
+              <a href="#">Comprehensive Study material focussing exams.</a>
             </li>
+            <li class="link-it">
+              <a href="#">Hybrid Learning (Online + Classroom Sessions).</a>
+            </li>
+            <li class="link-it">
+              <a href="#">GIHE- Quotro is an authorised institute for FIT & BIT</a>
+            </li>
+          </div>
+          <div id="eq" class="w3-container w3-border city" style="display:none">
+                <div class="form-fit">
+                    <form action="">
 
+                    <div class="form-group-input">
+                        <label for="">Name</label><br>
+                        <input type="text" name="" id="" class="text-input">
+                    </div>
+                    <div class="form-group-input">
+                        <label for="">Contact No</label><br>
+                        <input type="text" name="" id="" class="text-input">
+                    </div>
+                    <div class="form-group-input">
+                        <label for="">Email</label><br>
+                        <input type="email" name="" id="" class="text-input">
+                    </div>
+                    <div class="form-group-input">
+                        <label for="">Message </label><br>
+                        <textarea name="" id="" cols="30" rows="10" class="textrea-input"></textarea>
+                    </div>
+
+                    <div class="submit-form">
+                        <button>Submit</button>
+                    </div>
+                    </form>
+                </div>
           </div>
         </div>
       </div>
@@ -1069,6 +1230,7 @@
       .w3-button:hover {
         color: #000 !important;
         background-color: #ccc !important;
+        outline:none;
       }
       .w3-transparent,
       .w3-hover-none:hover {

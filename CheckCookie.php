@@ -4,7 +4,7 @@ session_start();
 date_default_timezone_set('Asia/Colombo');
 
 function chk_cookie($UserName) {
-    include 'connection_sql.php';
+    include './connection_sql.php';
 
     $sql = "SELECT * FROM user_mast WHERE user_name =  '" . $UserName . "'";
     $result = $conn->query($sql);

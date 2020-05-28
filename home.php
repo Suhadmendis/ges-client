@@ -332,7 +332,413 @@
     </style>
   </head>
   <body>
-    <?php include 'header.php' ?>
+  <link rel="stylesheet" href="./res/css/linearicons.css" />
+    <link rel="stylesheet" href="./res/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./res/css/bootstrap.css" />
+    <link rel="stylesheet" href="./res/css/magnific-popup.css" />
+    <link rel="stylesheet" href="./res/css/nice-select.css" />
+    <link rel="stylesheet" href="./res/css/animate.min.css" />
+    <link rel="stylesheet" href="./res/css/owl.carousel.css" />
+    <link rel="stylesheet" href="./res/css/jquery-ui.css" />
+    <link rel="stylesheet" href="./res/css/main.css" />
+    <link rel="stylesheet" href="./res/css/custom.css" />
+<a id="button"></a>
+    <header id="header" id="home">
+      <div class="header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-sm-6 col-8 header-top-left no-padding">
+              <ul>
+                <li>
+                  <a href="https://facebook.com/GESIRP/" target="blank"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                <a href="https://twitter.com/GESInternation1" target="blank"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                <a href="https://www.instagram.com/ges_international/" target="blank"><i class="fa fa-instagram"></i></a>
+                </li>
+
+              
+           
+              </ul>
+            </div>
+            <div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
+            <a href="http://webmail.gihe.lk/" target="blank"
+                ><span class="lnr lnr-phone-handset"></span>
+                <span class="text">Login</span></a
+              >
+              <a href="tel:+953 012 3654 896"
+                ><span class="lnr lnr-phone-handset"></span>
+                <span class="text">+94 764849994</span></a
+              >
+              <a href="mailto:info@gihe.lk"
+                ><span class="lnr lnr-envelope"></span>
+                <span class="text">info@gihe.lk</span></a
+              >
+
+              <?php //if (isset($_SESSION['UserName'])) { ?>
+                      <!-- <a href=""
+                        ><span class="lnr lnr-envelope"></span>
+                        <span class="text">
+                         <?php  // echo $_SESSION['UserName'];  ?>
+                        </span></a
+                      >
+
+                      <a href="" onclick="logout();" 
+                        ><span class="lnr lnr-envelope"></span>
+                        <span class="text">Logout</span></a
+                      > -->
+                  <?php //}else{ ?>
+                      <!-- <a href="login_form.php"
+                        ><span class="lnr lnr-envelope"></span>
+                        <span class="text">Sign In</span></a
+                      >
+
+                      <a href="register_form.php"
+                        ><span class="lnr lnr-envelope"></span>
+                        <span class="text">Sign Up</span></a
+                      >
+                    -->
+                  <?php //} ?>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container main-menu">
+        <div class="row align-items-center justify-content-between d-flex">
+          <div id="logo">
+            <a href="index.php"
+              ><img src="./img/GIHE-CAMPUS.png" alt="" title=""
+            /></a>
+          </div>
+
+          <!-- <div class="logo-text">
+              <p>GES Education</p>
+          </div> -->
+          <nav id="nav-menu-container">
+            <ul class="nav-menu">
+              <li><a href="index.php">Home</a></li>
+
+              <li class="menu-has-children">
+                    <a href="">About</a>
+                    <ul>
+                      <li>
+                        <a href="./views/about-new.php"> About Us</a>
+                      </li>
+                      <li>
+                        <a href="./views/vision-and-mission.php"> Vision & Mission</a>
+                      </li>
+                      <li>
+                        <a href="./views/partner-awarding-bodies.php">Partners & Awarding Bodies</a>
+                      </li>
+                      <li>
+                        <a href="./views/our-partner-organization.php"> Our Partner Organizations</a>
+                      </li>
+
+                    </ul>
+                  </li>
+              <li class="menu-has-children">
+                <a href="">Faculties</a>
+                <ul>
+                  <li class="menu-has-children">
+                    <a href="./views/School-of-Management.php"
+                      >School of Management</a
+                    >
+                  </li>
+                  <li class="menu-has-children">
+                    <a href="./views/information-technology.php">School of Technology</a>
+                  </li>
+                  <li class="menu-has-children">
+                    <a href="./views/School-of-Law.php">School of Law</a>
+                  </li>
+                  <li class="menu-has-children">
+                    <a href="./views/School-of-Professional-Studies.php"
+                      >School of Professional Studies</a
+                    >
+                  </li>
+                  <li class="menu-has-children">
+                    <a href="./views/School-of-Language-and-Development.php"
+                      >School of Language and Development  </a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-has-children">
+                <a href="">Courses</a>
+                <ul>
+                <li><a href="./views/Qualification-Frameworks.php">Qualification Frameworks</a></li>
+                <li><a href="./views/Entry-Requirements.php">Entry Requirements</a></li>
+                <li class="menu-has-children">
+                    <a href="/">International Foundation</a>
+                    <ul>
+                      <li>
+                        <a href="#"
+                          >Business Pathway</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >IT Pathway</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          >Finance Pathway</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Law Pathway</a
+                        >
+                      </li>
+
+                    </ul>
+                  </li>
+                  <li class="menu-has-children">
+                    <a href="/">BIT from University of Colombo </a>
+                    <ul>
+                      <li>
+                        <a href="./views/FIT.php"
+                          >Foundation in Infromation Technology</a
+                        >
+                      </li>
+                      <li>
+                        <a href="./views/BIT.php"
+                          >Bachelor of Information Technology </a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-has-children">
+                    <a href="/">Business Management</a>
+                    <ul>
+                      <li>
+                        <a href="#"
+                          >International Foundation (Business / Finance Pathway) (Level 3)</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Advance Diploma / HND in Business Management (Level 5)</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          >Graduate Diploma in Business Management (Level 6)</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Postgraduate Diploma in Strategic Management & Leadership (Level 7)</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#">BA (Hons) Business Management (Top Up) (Level 6)</a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Master of Business Administration (MBA) (top-up) (Level 7)</a
+                        >
+                      </li>
+
+
+
+                    </ul>
+                  </li>
+                  <li class="menu-has-children">
+                    <a href="">Hospitality and Tourism </a>
+                    <ul>
+                      <li>
+                        <a href="#"
+                          >Higher National Diploma in Hospitality and Tourism Management (Level 5) </a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Graduate Diploma in Hospitality and Tourism Management (Level 6) </a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Postgraduate Diploma in Hospitality and Tourism Management (Level 7)</a
+                        >
+                      </li>
+                     
+                    </ul>
+                  </li>
+                  <li class="menu-has-children">
+                    <a href="/">Logistics & Supply Chain</a>
+                    <ul>
+                      <li>
+                        <a
+                          href="#"
+                          >Advance Diploma / HND in Logistics & Supply Chain Management (Level 5)</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          >Diploma in Logistics & Supply Chain Management (Level 6)</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          >Postgraduate Diploma in Logistics & Supply Chain Management (Level 7)</a
+                        >
+                      </li>
+                     
+                    </ul>
+                  </li>
+                  <li class="menu-has-children">
+                    <a href="">	Information Technology</a>
+                    <ul>
+                      <li>
+                        <a href="#"
+                          >International Foundation (IT Pathway) (Level 3)</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >HND in Information Technology (Level 5)</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Graduate Diploma in Information Technology (Level 6)</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Postgraduate Diploma in Information Technology (Level 7)</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Advanced Certificate in Hardware & Networking </a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Professional Certificate in Data Communications & Network</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Professional Certificate in Database Administration & Technology</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Professional Certificate in Programming</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Professional Certificate in Cloud Computing</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Professional Certificate in Web Designing & Development</a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Professional Certificate in Graphic Designing </a
+                        >
+                      </li>
+
+
+
+                    </ul>
+                  </li>
+                  <li class="menu-has-children">
+                    <a href="">Law</a>
+                    <ul>
+                      <li>
+                        <a href="#">International Foundation (Law Pathway) (Level 3)</a>
+                      </li>
+                      <li>
+                        <a href="#">Graduate Diploma in International Business Law (Level 6)</a>
+                      </li>
+                      <li>
+                        <a href="#">Graduate Diploma in Law (GDL)</a>
+                      </li>
+                      <li>
+                        <a href="#">Legal Practice Course (LPC)</a>
+                      </li>
+
+
+
+                    </ul>
+                  </li>
+                  <li class="menu-has-children">
+                    <a href="">Education & Training</a>
+                    <ul>
+                      <li><a href="#">HND in Education and Training (Level 5)</a></li>
+                      <li><a href="#">Diploma in Education and Training (Level 6)</a></li>
+                      <li><a href="#">Postgraduate Diploma in Education and Training (Level 7)</a></li>
+
+                    </ul>
+                  </li>
+                  <li class="menu-has-children">
+                    <a href="">Project Management</a>
+                    <ul>
+                      <li><a href="#">Diploma in Project Management (Level 7)</a></li>
+
+
+                    </ul>
+                  </li>
+                  <li class="menu-has-children">
+                    <a href="">Entrepreneurship</a>
+                    <ul>
+                      <li><a href="#">Professional Diploma in Entrepreneurship</a></li>
+                      <li><a href="#">Advance Diploma in Entrepreneurship</a></li>
+
+
+                    </ul>
+                  </li>
+                  <li class="menu-has-children">
+                    <a href="">Language Courses</a>
+                    <ul>
+                      <li><a href="#">IELTS, PTE, UKVI and CBT Classes</a></li>
+                      <li><a href="#">Diploma in Business English</a></li>
+                      <li><a href="#">Diploma in English Language</a></li>
+                      <li><a href="#">Certificate in Creative Writing</a></li>
+                      <li><a href="#">Language Training </a></li>
+
+
+                    </ul>
+                  </li>
+                  <li class="menu-has-children">
+                    <a href="">Personality Development Courses</a>
+                    <ul>
+                      <li><a href="#">Personality Development Program (Confident +)</a></li>
+                      <li><a href="#">Corporate Training </a></li>
+                </ul>
+                  </li>
+                
+                </ul>
+              </li>
+              <!-- <li><a href="events.php">Events</a></li>
+              <li><a href="gallery.php">Gallery</a></li> -->
+
+             
+              
+              <li><a href="#">Freedo</a></li>
+              <li><a href="./views/study-abroad.php">Study abroad</a></li>
+            </ul>
+          </nav>
+          <!-- #nav-menu-container -->
+        </div>
+      </div>
+    </header>
     <!-- #header -->
 
     <!-- start banner Area -->
@@ -497,40 +903,40 @@
     </section> -->
 
     <section class="customer-logos slider">
-      <div class="slide"><img src="../img/uni/1.png" /></div>
-      <div class="slide"><img src="../img/uni/2.jpg" /></div>
-      <div class="slide"><img src="../img/uni/3.png" /></div>
-      <div class="slide"><img src="../img/uni/4.jpg" /></div>
-      <div class="slide"><img src="../img/uni/5.jpg" /></div>
-      <div class="slide"><img src="../img/uni/6.png" /></div>
-      <div class="slide"><img src="../img/uni/7.png" /></div>
-      <div class="slide"><img src="../img/uni/8.png" /></div>
-      <div class="slide"><img src="../img/uni/9.png" /></div>
-      <div class="slide"><img src="../img/uni/10.png" /></div>
-      <div class="slide"><img src="../img/uni/11.png" /></div>
-      <div class="slide"><img src="../img/uni/12.png" /></div>
-      <div class="slide"><img src="../img/uni/13.png" /></div>
-      <div class="slide"><img src="../img/uni/14.png" /></div>
-      <div class="slide"><img src="../img/uni/15.jpg" /></div>
-      <div class="slide"><img src="../img/uni/16.png" /></div>
-      <div class="slide"><img src="../img/uni/17.png" /></div>
-      <div class="slide"><img src="../img/uni/18.png" /></div>
-      <div class="slide"><img src="../img/uni/19.png" /></div>
-      <div class="slide"><img src="../img/uni/20.png" /></div>
-      <div class="slide"><img src="../img/uni/21.png" /></div>
-      <div class="slide"><img src="../img/uni/22.png" /></div>
-      <div class="slide"><img src="../img/uni/23.png" /></div>
-      <div class="slide"><img src="../img/uni/24.png" /></div>
-      <div class="slide"><img src="../img/uni/25.png" /></div>
-      <div class="slide"><img src="../img/uni/26.png" /></div>
-      <div class="slide"><img src="../img/uni/27.jpg" /></div>
-      <div class="slide"><img src="../img/uni/28.jpg" /></div>
-      <div class="slide"><img src="../img/uni/29.png" /></div>
-      <div class="slide"><img src="../img/uni/30.jpg" /></div>
-      <div class="slide"><img src="../img/uni/31.png" /></div>
-      <div class="slide"><img src="../img/uni/32.png" /></div>
-      <div class="slide"><img src="../img/uni/33.png" /></div>
-      <div class="slide"><img src="../img/uni/34.png" /></div>
+      <div class="slide"><img src="img/uni/1.png" /></div>
+      <div class="slide"><img src="img/uni/2.jpg" /></div>
+      <div class="slide"><img src="img/uni/3.png" /></div>
+      <div class="slide"><img src="img/uni/4.jpg" /></div>
+      <div class="slide"><img src="img/uni/5.jpg" /></div>
+      <div class="slide"><img src="img/uni/6.png" /></div>
+      <div class="slide"><img src="img/uni/7.png" /></div>
+      <div class="slide"><img src="img/uni/8.png" /></div>
+      <div class="slide"><img src="img/uni/9.png" /></div>
+      <div class="slide"><img src="img/uni/10.png" /></div>
+      <div class="slide"><img src="img/uni/11.png" /></div>
+      <div class="slide"><img src="img/uni/12.png" /></div>
+      <div class="slide"><img src="img/uni/13.png" /></div>
+      <div class="slide"><img src="img/uni/14.png" /></div>
+      <div class="slide"><img src="img/uni/15.jpg" /></div>
+      <div class="slide"><img src="img/uni/16.png" /></div>
+      <div class="slide"><img src="img/uni/17.png" /></div>
+      <div class="slide"><img src="img/uni/18.png" /></div>
+      <div class="slide"><img src="img/uni/19.png" /></div>
+      <div class="slide"><img src="img/uni/20.png" /></div>
+      <div class="slide"><img src="img/uni/21.png" /></div>
+      <div class="slide"><img src="img/uni/22.png" /></div>
+      <div class="slide"><img src="img/uni/23.png" /></div>
+      <div class="slide"><img src="img/uni/24.png" /></div>
+      <div class="slide"><img src="img/uni/25.png" /></div>
+      <div class="slide"><img src="img/uni/26.png" /></div>
+      <div class="slide"><img src="img/uni/27.jpg" /></div>
+      <div class="slide"><img src="img/uni/28.jpg" /></div>
+      <div class="slide"><img src="img/uni/29.png" /></div>
+      <div class="slide"><img src="img/uni/30.jpg" /></div>
+      <div class="slide"><img src="img/uni/31.png" /></div>
+      <div class="slide"><img src="img/uni/32.png" /></div>
+      <div class="slide"><img src="img/uni/33.png" /></div>
+      <div class="slide"><img src="img/uni/34.png" /></div>
     </section>
     <!-- End feature Area -->
     <!-- Set up your HTML -->

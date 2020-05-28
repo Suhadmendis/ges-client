@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="zxx" class="no-js">
-  <head>
-    <!-- Mobile Specific Meta -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- Favicon-->
-    <link rel="shortcut icon" href="img/fav.png" />
-    <!-- Author Meta -->
-    <meta name="author" content="colorlib" />
-    <!-- Meta Description -->
-    <meta name="description" content="" />
-    <!-- Meta Keyword -->
-    <meta name="keywords" content="" />
-    <!-- meta character set -->
-    <meta charset="UTF-8" />
-    <!-- Site Title -->
-    <title>Education</title>
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700"
-      rel="stylesheet"
-    />
 
     <style>
       ul#tabs-list {
@@ -687,7 +663,7 @@
 
   </head>
   <body>
-    <?php include 'header.php' ?>
+    <?php include '../header.php' ?>
     <!-- #header -->
 
     <!-- start banner Area -->
@@ -762,7 +738,7 @@
     <!-- End cta-two Area -->
 
     <!-- start footer Area -->
-    <?php include 'footer.php' ?>
+    <?php include '../footer.php' ?>
     <!-- End footer Area -->
 
 
